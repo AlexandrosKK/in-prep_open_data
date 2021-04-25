@@ -1,0 +1,328 @@
+Use Case Scenario #06: Fire in Building - Non Fire-Fighers First Responders Needed,,,,,,
+"Factors
+(Each Line Represents a different scenario)",,,,,,Decision
+No.,Number of Floors,Est. People inside the Building need to be rescued,Percentage of Building on fire,Are Fire Extiquinshing Mechanisms existent?,Access to floors (emergency exits)  blocked?,Estimated Need in Non Fire-Fighers First Responders Needed
+1,Low: < 4,Low: < 20,Low: < 25%,Yes,Yes,Low: < 15
+2,Low: < 4,Low: < 20,Low: < 25%,Yes,No,Low: < 15
+3,Low: < 4,Low: < 20,Low: < 25%,No,Yes,Low: < 15
+4,Low: < 4,Low: < 20,Low: < 25%,No,No,Low: < 15
+5,Low: < 4,Low: < 20,Medium: 25-50%,Yes,Yes,Low: < 15
+6,Low: < 4,Low: < 20,Medium: 25-50%,Yes,No,Low: < 15
+7,Low: < 4,Low: < 20,Medium: 25-50%,No,Yes,Low: < 15
+8,Low: < 4,Low: < 20,Medium: 25-50%,No,No,Low: < 15
+9,Low: < 4,Low: < 20,High: > 50%,Yes,Yes,Medium: 15-30
+10,Low: < 4,Low: < 20,High: > 50%,Yes,No,Medium: 15-30
+11,Low: < 4,Low: < 20,High: > 50%,No,Yes,Medium: 15-30
+12,Low: < 4,Low: < 20,High: > 50%,No,No,Medium: 15-30
+13,Low: < 4,Medium: 20-40,Low: < 25%,Yes,Yes,Medium: 15-30
+14,Low: < 4,Medium: 20-40,Low: < 25%,Yes,No,Medium: 15-30
+15,Low: < 4,Medium: 20-40,Low: < 25%,No,Yes,Medium: 15-30
+16,Low: < 4,Medium: 20-40,Low: < 25%,No,No,Medium: 15-30
+17,Low: < 4,Medium: 20-40,Medium: 25-50%,Yes,Yes,Medium: 15-30
+18,Low: < 4,Medium: 20-40,Medium: 25-50%,Yes,No,Medium: 15-30
+19,Low: < 4,Medium: 20-40,Medium: 25-50%,No,Yes,Medium: 15-30
+20,Low: < 4,Medium: 20-40,Medium: 25-50%,No,No,Medium: 15-30
+21,Low: < 4,Medium: 20-40,High: > 50%,Yes,Yes,Medium: 15-30
+22,Low: < 4,Medium: 20-40,High: > 50%,Yes,No,Medium: 15-30
+23,Low: < 4,Medium: 20-40,High: > 50%,No,Yes,Medium: 15-30
+24,Low: < 4,Medium: 20-40,High: > 50%,No,No,Medium: 15-30
+25,Low: < 4,High: > 40,Low: < 25%,Yes,Yes,Medium: 15-30
+26,Low: < 4,High: > 40,Low: < 25%,Yes,No,Medium: 15-30
+27,Low: < 4,High: > 40,Low: < 25%,No,Yes,Medium: 15-30
+28,Low: < 4,High: > 40,Low: < 25%,No,No,Medium: 15-30
+29,Low: < 4,High: > 40,Medium: 25-50%,Yes,Yes,Medium: 15-30
+30,Low: < 4,High: > 40,Medium: 25-50%,Yes,No,Medium: 15-30
+31,Low: < 4,High: > 40,Medium: 25-50%,No,Yes,Medium: 15-30
+32,Low: < 4,High: > 40,Medium: 25-50%,No,No,Medium: 15-30
+33,Low: < 4,High: > 40,High: > 50%,Yes,Yes,Medium: 15-30
+34,Low: < 4,High: > 40,High: > 50%,Yes,No,Medium: 15-30
+35,Low: < 4,High: > 40,High: > 50%,No,Yes,Medium: 15-30
+36,Low: < 4,High: > 40,High: > 50%,No,No,Medium: 15-30
+37,Medium: 4-10,Low: < 20,Low: < 25%,Yes,Yes,Medium: 15-30
+38,Medium: 4-10,Low: < 20,Low: < 25%,Yes,No,Medium: 15-30
+39,Medium: 4-10,Low: < 20,Low: < 25%,No,Yes,Medium: 15-30
+40,Medium: 4-10,Low: < 20,Low: < 25%,No,No,Medium: 15-30
+41,Medium: 4-10,Low: < 20,Medium: 25-50%,Yes,Yes,Medium: 15-30
+42,Medium: 4-10,Low: < 20,Medium: 25-50%,Yes,No,Medium: 15-30
+43,Medium: 4-10,Low: < 20,Medium: 25-50%,No,Yes,Medium: 15-30
+44,Medium: 4-10,Low: < 20,Medium: 25-50%,No,No,Medium: 15-30
+45,Medium: 4-10,Low: < 20,High: > 50%,Yes,Yes,Medium: 15-30
+46,Medium: 4-10,Low: < 20,High: > 50%,Yes,No,Medium: 15-30
+47,Medium: 4-10,Low: < 20,High: > 50%,No,Yes,Medium: 15-30
+48,Medium: 4-10,Low: < 20,High: > 50%,No,No,Medium: 15-30
+49,Medium: 4-10,Medium: 20-40,Low: < 25%,Yes,Yes,Medium: 15-30
+50,Medium: 4-10,Medium: 20-40,Low: < 25%,Yes,No,Medium: 15-30
+51,Medium: 4-10,Medium: 20-40,Low: < 25%,No,Yes,Medium: 15-30
+52,Medium: 4-10,Medium: 20-40,Low: < 25%,No,No,Medium: 15-30
+53,Medium: 4-10,Medium: 20-40,Medium: 25-50%,Yes,Yes,Medium: 15-30
+54,Medium: 4-10,Medium: 20-40,Medium: 25-50%,Yes,No,Medium: 15-30
+55,Medium: 4-10,Medium: 20-40,Medium: 25-50%,No,Yes,Medium: 15-30
+56,Medium: 4-10,Medium: 20-40,Medium: 25-50%,No,No,Medium: 15-30
+57,Medium: 4-10,Medium: 20-40,High: > 50%,Yes,Yes,Medium: 15-30
+58,Medium: 4-10,Medium: 20-40,High: > 50%,Yes,No,Medium: 15-30
+59,Medium: 4-10,Medium: 20-40,High: > 50%,No,Yes,Medium: 15-30
+60,Medium: 4-10,Medium: 20-40,High: > 50%,No,No,Medium: 15-30
+61,Medium: 4-10,High: > 40,Low: < 25%,Yes,Yes,High: >30
+62,Medium: 4-10,High: > 40,Low: < 25%,Yes,No,High: >30
+63,Medium: 4-10,High: > 40,Low: < 25%,No,Yes,High: >30
+64,Medium: 4-10,High: > 40,Low: < 25%,No,No,High: >30
+65,Medium: 4-10,High: > 40,Medium: 25-50%,Yes,Yes,High: >30
+66,Medium: 4-10,High: > 40,Medium: 25-50%,Yes,No,High: >30
+67,Medium: 4-10,High: > 40,Medium: 25-50%,No,Yes,High: >30
+68,Medium: 4-10,High: > 40,Medium: 25-50%,No,No,High: >30
+69,Medium: 4-10,High: > 40,High: > 50%,Yes,Yes,High: >30
+70,Medium: 4-10,High: > 40,High: > 50%,Yes,No,High: >30
+71,Medium: 4-10,High: > 40,High: > 50%,No,Yes,High: >30
+72,Medium: 4-10,High: > 40,High: > 50%,No,No,High: >30
+73,High: > 10,Low: < 20,Low: < 25%,Yes,Yes,High: >30
+74,High: > 10,Low: < 20,Low: < 25%,Yes,No,High: >30
+75,High: > 10,Low: < 20,Low: < 25%,No,Yes,High: >30
+76,High: > 10,Low: < 20,Low: < 25%,No,No,High: >30
+77,High: > 10,Low: < 20,Medium: 25-50%,Yes,Yes,High: >30
+78,High: > 10,Low: < 20,Medium: 25-50%,Yes,No,High: >30
+79,High: > 10,Low: < 20,Medium: 25-50%,No,Yes,High: >30
+80,High: > 10,Low: < 20,Medium: 25-50%,No,No,High: >30
+81,High: > 10,Low: < 20,High: > 50%,Yes,Yes,High: >30
+82,High: > 10,Low: < 20,High: > 50%,Yes,No,High: >30
+83,High: > 10,Low: < 20,High: > 50%,No,Yes,High: >30
+84,High: > 10,Low: < 20,High: > 50%,No,No,High: >30
+85,High: > 10,Medium: 20-40,Low: < 25%,Yes,Yes,High: >30
+86,High: > 10,Medium: 20-40,Low: < 25%,Yes,No,High: >30
+87,High: > 10,Medium: 20-40,Low: < 25%,No,Yes,High: >30
+88,High: > 10,Medium: 20-40,Low: < 25%,No,No,High: >30
+89,High: > 10,Medium: 20-40,Medium: 25-50%,Yes,Yes,High: >30
+90,High: > 10,Medium: 20-40,Medium: 25-50%,Yes,No,High: >30
+91,High: > 10,Medium: 20-40,Medium: 25-50%,No,Yes,High: >30
+92,High: > 10,Medium: 20-40,Medium: 25-50%,No,No,High: >30
+93,High: > 10,Medium: 20-40,High: > 50%,Yes,Yes,High: >30
+94,High: > 10,Medium: 20-40,High: > 50%,Yes,No,High: >30
+95,High: > 10,Medium: 20-40,High: > 50%,No,Yes,High: >30
+96,High: > 10,Medium: 20-40,High: > 50%,No,No,High: >30
+97,High: > 10,High: > 40,Low: < 25%,Yes,Yes,High: >30
+98,High: > 10,High: > 40,Low: < 25%,Yes,No,High: >30
+99,High: > 10,High: > 40,Low: < 25%,No,Yes,High: >30
+100,High: > 10,High: > 40,Low: < 25%,No,No,High: >30
+101,High: > 10,High: > 40,Medium: 25-50%,Yes,Yes,High: >30
+102,High: > 10,High: > 40,Medium: 25-50%,Yes,No,High: >30
+103,High: > 10,High: > 40,Medium: 25-50%,No,Yes,High: >30
+104,High: > 10,High: > 40,Medium: 25-50%,No,No,High: >30
+105,High: > 10,High: > 40,High: > 50%,Yes,Yes,High: >30
+106,High: > 10,High: > 40,High: > 50%,Yes,No,High: >30
+107,High: > 10,High: > 40,High: > 50%,No,Yes,High: >30
+108,High: > 10,High: > 40,High: > 50%,No,No,High: >30
+109,,,,,,
+110,,,,,,
+111,,,,,,
+112,,,,,,
+113,,,,,,
+114,,,,,,
+115,,,,,,
+116,,,,,,
+117,,,,,,
+118,,,,,,
+119,,,,,,
+120,,,,,,
+121,,,,,,
+122,,,,,,
+123,,,,,,
+124,,,,,,
+125,,,,,,
+126,,,,,,
+127,,,,,,
+128,,,,,,
+129,,,,,,
+130,,,,,,
+131,,,,,,
+132,,,,,,
+133,,,,,,
+134,,,,,,
+135,,,,,,
+136,,,,,,
+137,,,,,,
+138,,,,,,
+139,,,,,,
+140,,,,,,
+141,,,,,,
+142,,,,,,
+143,,,,,,
+144,,,,,,
+145,,,,,,
+146,,,,,,
+147,,,,,,
+148,,,,,,
+149,,,,,,
+150,,,,,,
+151,,,,,,
+152,,,,,,
+153,,,,,,
+154,,,,,,
+155,,,,,,
+156,,,,,,
+157,,,,,,
+158,,,,,,
+159,,,,,,
+160,,,,,,
+161,,,,,,
+162,,,,,,
+163,,,,,,
+164,,,,,,
+165,,,,,,
+166,,,,,,
+167,,,,,,
+168,,,,,,
+169,,,,,,
+170,,,,,,
+171,,,,,,
+172,,,,,,
+173,,,,,,
+174,,,,,,
+175,,,,,,
+176,,,,,,
+177,,,,,,
+178,,,,,,
+179,,,,,,
+180,,,,,,
+181,,,,,,
+182,,,,,,
+183,,,,,,
+184,,,,,,
+185,,,,,,
+186,,,,,,
+187,,,,,,
+188,,,,,,
+189,,,,,,
+190,,,,,,
+191,,,,,,
+192,,,,,,
+193,,,,,,
+194,,,,,,
+195,,,,,,
+196,,,,,,
+197,,,,,,
+198,,,,,,
+199,,,,,,
+200,,,,,,
+201,,,,,,
+202,,,,,,
+203,,,,,,
+204,,,,,,
+205,,,,,,
+206,,,,,,
+207,,,,,,
+208,,,,,,
+209,,,,,,
+210,,,,,,
+211,,,,,,
+212,,,,,,
+213,,,,,,
+214,,,,,,
+215,,,,,,
+216,,,,,,
+217,,,,,,
+218,,,,,,
+219,,,,,,
+220,,,,,,
+221,,,,,,
+222,,,,,,
+223,,,,,,
+224,,,,,,
+225,,,,,,
+226,,,,,,
+227,,,,,,
+228,,,,,,
+229,,,,,,
+230,,,,,,
+231,,,,,,
+232,,,,,,
+233,,,,,,
+234,,,,,,
+235,,,,,,
+236,,,,,,
+237,,,,,,
+238,,,,,,
+239,,,,,,
+240,,,,,,
+241,,,,,,
+242,,,,,,
+243,,,,,,
+244,,,,,,
+245,,,,,,
+246,,,,,,
+247,,,,,,
+248,,,,,,
+249,,,,,,
+250,,,,,,
+251,,,,,,
+252,,,,,,
+253,,,,,,
+254,,,,,,
+255,,,,,,
+256,,,,,,
+257,,,,,,
+258,,,,,,
+259,,,,,,
+260,,,,,,
+261,,,,,,
+262,,,,,,
+263,,,,,,
+264,,,,,,
+265,,,,,,
+266,,,,,,
+267,,,,,,
+268,,,,,,
+269,,,,,,
+270,,,,,,
+271,,,,,,
+272,,,,,,
+273,,,,,,
+274,,,,,,
+275,,,,,,
+276,,,,,,
+277,,,,,,
+278,,,,,,
+279,,,,,,
+280,,,,,,
+281,,,,,,
+282,,,,,,
+283,,,,,,
+284,,,,,,
+285,,,,,,
+286,,,,,,
+287,,,,,,
+288,,,,,,
+289,,,,,,
+290,,,,,,
+291,,,,,,
+292,,,,,,
+293,,,,,,
+294,,,,,,
+295,,,,,,
+296,,,,,,
+297,,,,,,
+298,,,,,,
+299,,,,,,
+300,,,,,,
+301,,,,,,
+302,,,,,,
+303,,,,,,
+304,,,,,,
+305,,,,,,
+306,,,,,,
+307,,,,,,
+308,,,,,,
+309,,,,,,
+310,,,,,,
+311,,,,,,
+312,,,,,,
+313,,,,,,
+314,,,,,,
+315,,,,,,
+316,,,,,,
+317,,,,,,
+318,,,,,,
+319,,,,,,
+320,,,,,,
+321,,,,,,
+322,,,,,,
+323,,,,,,
+324,,,,,,

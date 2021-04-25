@@ -1,0 +1,112 @@
+Use Case Scenario #04: Fire in Building - Fire-Fighters Needed,,,,,,
+"Factors
+(Each Line Represents a different scenario)",,,,,,Decision
+No.,Number of Floors,Est. People inside the Building need to be rescued,Percentage of Building on fire,Are Fire Extiquinshing Mechanisms existent?,Access to floors (emergency exits)  blocked?,Estimated Need in Fire-fighters
+1,Low: < 4,Low: < 80,Low: < 25%,Yes,Yes,Low: < 16
+2,Low: < 4,Low: < 80,Low: < 25%,Yes,No,Low: < 16
+3,Low: < 4,Low: < 80,Low: < 25%,No,Yes,Low: < 16
+4,Low: < 4,Low: < 80,Low: < 25%,No,No,Low: < 16
+5,Low: < 4,Low: < 80,Medium: 25-50%,Yes,Yes,Medium: 16-32
+6,Low: < 4,Low: < 80,Medium: 25-50%,Yes,No,Medium: 16-32
+7,Low: < 4,Low: < 80,Medium: 25-50%,No,Yes,Medium: 16-32
+8,Low: < 4,Low: < 80,Medium: 25-50%,No,No,Medium: 16-32
+9,Low: < 4,Low: < 80,High: > 50%,Yes,Yes,Medium: 16-32
+10,Low: < 4,Low: < 80,High: > 50%,Yes,No,Medium: 16-32
+11,Low: < 4,Low: < 80,High: > 50%,No,Yes,Medium: 16-32
+12,Low: < 4,Low: < 80,High: > 50%,No,No,Medium: 16-32
+13,Low: < 4,Medium: 80-200,Low: < 25%,Yes,Yes,Medium: 16-32
+14,Low: < 4,Medium: 80-200,Low: < 25%,Yes,No,Medium: 16-32
+15,Low: < 4,Medium: 80-200,Low: < 25%,No,Yes,High: >32
+16,Low: < 4,Medium: 80-200,Low: < 25%,No,No,Medium: 16-32
+17,Low: < 4,Medium: 80-200,Medium: 25-50%,Yes,Yes,Medium: 16-32
+18,Low: < 4,Medium: 80-200,Medium: 25-50%,Yes,No,Medium: 16-32
+19,Low: < 4,Medium: 80-200,Medium: 25-50%,No,Yes,High: >32
+20,Low: < 4,Medium: 80-200,Medium: 25-50%,No,No,Medium: 16-32
+21,Low: < 4,Medium: 80-200,High: > 50%,Yes,Yes,Medium: 16-32
+22,Low: < 4,Medium: 80-200,High: > 50%,Yes,No,Medium: 16-32
+23,Low: < 4,Medium: 80-200,High: > 50%,No,Yes,High: >32
+24,Low: < 4,Medium: 80-200,High: > 50%,No,No,Medium: 16-32
+25,Low: < 4,High: > 200,Low: < 25%,Yes,Yes,Medium: 16-32
+26,Low: < 4,High: > 200,Low: < 25%,Yes,No,Medium: 16-32
+27,Low: < 4,High: > 200,Low: < 25%,No,Yes,High: >32
+28,Low: < 4,High: > 200,Low: < 25%,No,No,Medium: 16-32
+29,Low: < 4,High: > 200,Medium: 25-50%,Yes,Yes,Medium: 16-32
+30,Low: < 4,High: > 200,Medium: 25-50%,Yes,No,Medium: 16-32
+31,Low: < 4,High: > 200,Medium: 25-50%,No,Yes,High: >32
+32,Low: < 4,High: > 200,Medium: 25-50%,No,No,Medium: 16-32
+33,Low: < 4,High: > 200,High: > 50%,Yes,Yes,Medium: 16-32
+34,Low: < 4,High: > 200,High: > 50%,Yes,No,Medium: 16-32
+35,Low: < 4,High: > 200,High: > 50%,No,Yes,High: >32
+36,Low: < 4,High: > 200,High: > 50%,No,No,High: >32
+37,Medium: 4-10,Low: < 80,Low: < 25%,Yes,Yes,Medium: 16-32
+38,Medium: 4-10,Low: < 80,Low: < 25%,Yes,No,Medium: 16-32
+39,Medium: 4-10,Low: < 80,Low: < 25%,No,Yes,Medium: 16-32
+40,Medium: 4-10,Low: < 80,Low: < 25%,No,No,Medium: 16-32
+41,Medium: 4-10,Low: < 80,Medium: 25-50%,Yes,Yes,Medium: 16-32
+42,Medium: 4-10,Low: < 80,Medium: 25-50%,Yes,No,Medium: 16-32
+43,Medium: 4-10,Low: < 80,Medium: 25-50%,No,Yes,High: >32
+44,Medium: 4-10,Low: < 80,Medium: 25-50%,No,No,Medium: 16-32
+45,Medium: 4-10,Low: < 80,High: > 50%,Yes,Yes,Medium: 16-32
+46,Medium: 4-10,Low: < 80,High: > 50%,Yes,No,Medium: 16-32
+47,Medium: 4-10,Low: < 80,High: > 50%,No,Yes,High: >32
+48,Medium: 4-10,Low: < 80,High: > 50%,No,No,Medium: 16-32
+49,Medium: 4-10,Medium: 80-200,Low: < 25%,Yes,Yes,Medium: 16-32
+50,Medium: 4-10,Medium: 80-200,Low: < 25%,Yes,No,Medium: 16-32
+51,Medium: 4-10,Medium: 80-200,Low: < 25%,No,Yes,High: >32
+52,Medium: 4-10,Medium: 80-200,Low: < 25%,No,No,Medium: 16-32
+53,Medium: 4-10,Medium: 80-200,Medium: 25-50%,Yes,Yes,Medium: 16-32
+54,Medium: 4-10,Medium: 80-200,Medium: 25-50%,Yes,No,Medium: 16-32
+55,Medium: 4-10,Medium: 80-200,Medium: 25-50%,No,Yes,High: >32
+56,Medium: 4-10,Medium: 80-200,Medium: 25-50%,No,No,Medium: 16-32
+57,Medium: 4-10,Medium: 80-200,High: > 50%,Yes,Yes,Medium: 16-32
+58,Medium: 4-10,Medium: 80-200,High: > 50%,Yes,No,Medium: 16-32
+59,Medium: 4-10,Medium: 80-200,High: > 50%,No,Yes,High: >32
+60,Medium: 4-10,Medium: 80-200,High: > 50%,No,No,Medium: 16-32
+61,Medium: 4-10,High: > 200,Low: < 25%,Yes,Yes,Medium: 16-32
+62,Medium: 4-10,High: > 200,Low: < 25%,Yes,No,Medium: 16-32
+63,Medium: 4-10,High: > 200,Low: < 25%,No,Yes,High: >32
+64,Medium: 4-10,High: > 200,Low: < 25%,No,No,Medium: 16-32
+65,Medium: 4-10,High: > 200,Medium: 25-50%,Yes,Yes,Medium: 16-32
+66,Medium: 4-10,High: > 200,Medium: 25-50%,Yes,No,Medium: 16-32
+67,Medium: 4-10,High: > 200,Medium: 25-50%,No,Yes,High: >32
+68,Medium: 4-10,High: > 200,Medium: 25-50%,No,No,Medium: 16-32
+69,Medium: 4-10,High: > 200,High: > 50%,Yes,Yes,High: >32
+70,Medium: 4-10,High: > 200,High: > 50%,Yes,No,High: >32
+71,Medium: 4-10,High: > 200,High: > 50%,No,Yes,High: >32
+72,Medium: 4-10,High: > 200,High: > 50%,No,No,High: >32
+73,High: > 10,Low: < 80,Low: < 25%,Yes,Yes,High: >32
+74,High: > 10,Low: < 80,Low: < 25%,Yes,No,High: >32
+75,High: > 10,Low: < 80,Low: < 25%,No,Yes,High: >32
+76,High: > 10,Low: < 80,Low: < 25%,No,No,High: >32
+77,High: > 10,Low: < 80,Medium: 25-50%,Yes,Yes,High: >32
+78,High: > 10,Low: < 80,Medium: 25-50%,Yes,No,High: >32
+79,High: > 10,Low: < 80,Medium: 25-50%,No,Yes,High: >32
+80,High: > 10,Low: < 80,Medium: 25-50%,No,No,High: >32
+81,High: > 10,Low: < 80,High: > 50%,Yes,Yes,High: >32
+82,High: > 10,Low: < 80,High: > 50%,Yes,No,High: >32
+83,High: > 10,Low: < 80,High: > 50%,No,Yes,High: >32
+84,High: > 10,Low: < 80,High: > 50%,No,No,High: >32
+85,High: > 10,Medium: 80-200,Low: < 25%,Yes,Yes,High: >32
+86,High: > 10,Medium: 80-200,Low: < 25%,Yes,No,High: >32
+87,High: > 10,Medium: 80-200,Low: < 25%,No,Yes,High: >32
+88,High: > 10,Medium: 80-200,Low: < 25%,No,No,High: >32
+89,High: > 10,Medium: 80-200,Medium: 25-50%,Yes,Yes,High: >32
+90,High: > 10,Medium: 80-200,Medium: 25-50%,Yes,No,High: >32
+91,High: > 10,Medium: 80-200,Medium: 25-50%,No,Yes,High: >32
+92,High: > 10,Medium: 80-200,Medium: 25-50%,No,No,High: >32
+93,High: > 10,Medium: 80-200,High: > 50%,Yes,Yes,High: >32
+94,High: > 10,Medium: 80-200,High: > 50%,Yes,No,High: >32
+95,High: > 10,Medium: 80-200,High: > 50%,No,Yes,High: >32
+96,High: > 10,Medium: 80-200,High: > 50%,No,No,High: >32
+97,High: > 10,High: > 200,Low: < 25%,Yes,Yes,High: >32
+98,High: > 10,High: > 200,Low: < 25%,Yes,No,High: >32
+99,High: > 10,High: > 200,Low: < 25%,No,Yes,High: >32
+100,High: > 10,High: > 200,Low: < 25%,No,No,High: >32
+101,High: > 10,High: > 200,Medium: 25-50%,Yes,Yes,High: >32
+102,High: > 10,High: > 200,Medium: 25-50%,Yes,No,High: >32
+103,High: > 10,High: > 200,Medium: 25-50%,No,Yes,High: >32
+104,High: > 10,High: > 200,Medium: 25-50%,No,No,High: >32
+105,High: > 10,High: > 200,High: > 50%,Yes,Yes,High: >32
+106,High: > 10,High: > 200,High: > 50%,Yes,No,High: >32
+107,High: > 10,High: > 200,High: > 50%,No,Yes,High: >32
+108,High: > 10,High: > 200,High: > 50%,No,No,High: >32

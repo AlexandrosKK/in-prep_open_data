@@ -1,0 +1,249 @@
+Use Case Scenario #07: CBRN dispersion in atmoshphere - Evacuation,,,,,,
+"Factors
+(Each Line Represents a different scenario)",,,,,,Decision
+No.,"Area Covered 
+Sq. Km. ",Est. People (impacted),"Wind Speed
+(Bft)",Type of Hazard,Exposure Level,Evacuation?
+1,Low: < 0.5 Sq. Km,Low: < 1000 ,Low: 0-5 Bft,Low,Low,No
+2,Low: < 0.5 Sq. Km,Low: < 1000 ,Low: 0-5 Bft,Low,Medium,No
+3,Low: < 0.5 Sq. Km,Low: < 1000 ,Low: 0-5 Bft,Low,High,Yes
+4,Low: < 0.5 Sq. Km,Low: < 1000 ,Low: 0-5 Bft,Medium,Low,No
+5,Low: < 0.5 Sq. Km,Low: < 1000 ,Low: 0-5 Bft,Medium,Medium,Yes
+6,Low: < 0.5 Sq. Km,Low: < 1000 ,Low: 0-5 Bft,Medium,High,Yes
+7,Low: < 0.5 Sq. Km,Low: < 1000 ,Low: 0-5 Bft,High,Low,No
+8,Low: < 0.5 Sq. Km,Low: < 1000 ,Low: 0-5 Bft,High,Medium,Yes
+9,Low: < 0.5 Sq. Km,Low: < 1000 ,Low: 0-5 Bft,High,High,Yes
+10,Low: < 0.5 Sq. Km,Low: < 1000 ,Medium: 5-8 Bft,Low,Low,No
+11,Low: < 0.5 Sq. Km,Low: < 1000 ,Medium: 5-8 Bft,Low,Medium,Yes
+12,Low: < 0.5 Sq. Km,Low: < 1000 ,Medium: 5-8 Bft,Low,High,Yes
+13,Low: < 0.5 Sq. Km,Low: < 1000 ,Medium: 5-8 Bft,Medium,Low,Yes
+14,Low: < 0.5 Sq. Km,Low: < 1000 ,Medium: 5-8 Bft,Medium,Medium,Yes
+15,Low: < 0.5 Sq. Km,Low: < 1000 ,Medium: 5-8 Bft,Medium,High,Yes
+16,Low: < 0.5 Sq. Km,Low: < 1000 ,Medium: 5-8 Bft,High,Low,Yes
+17,Low: < 0.5 Sq. Km,Low: < 1000 ,Medium: 5-8 Bft,High,Medium,Yes
+18,Low: < 0.5 Sq. Km,Low: < 1000 ,Medium: 5-8 Bft,High,High,Yes
+19,Low: < 0.5 Sq. Km,Low: < 1000 ,High: > 8 Bft,Low,Low,No
+20,Low: < 0.5 Sq. Km,Low: < 1000 ,High: > 8 Bft,Low,Medium,Yes
+21,Low: < 0.5 Sq. Km,Low: < 1000 ,High: > 8 Bft,Low,High,Yes
+22,Low: < 0.5 Sq. Km,Low: < 1000 ,High: > 8 Bft,Medium,Low,Yes
+23,Low: < 0.5 Sq. Km,Low: < 1000 ,High: > 8 Bft,Medium,Medium,Yes
+24,Low: < 0.5 Sq. Km,Low: < 1000 ,High: > 8 Bft,Medium,High,Yes
+25,Low: < 0.5 Sq. Km,Low: < 1000 ,High: > 8 Bft,High,Low,Yes
+26,Low: < 0.5 Sq. Km,Low: < 1000 ,High: > 8 Bft,High,Medium,Yes
+27,Low: < 0.5 Sq. Km,Low: < 1000 ,High: > 8 Bft,High,High,Yes
+28,Low: < 0.5 Sq. Km,Medium: 1000-3000,Low: 0-5 Bft,Low,Low,No
+29,Low: < 0.5 Sq. Km,Medium: 1000-3000,Low: 0-5 Bft,Low,Medium,Yes
+30,Low: < 0.5 Sq. Km,Medium: 1000-3000,Low: 0-5 Bft,Low,High,Yes
+31,Low: < 0.5 Sq. Km,Medium: 1000-3000,Low: 0-5 Bft,Medium,Low,Yes
+32,Low: < 0.5 Sq. Km,Medium: 1000-3000,Low: 0-5 Bft,Medium,Medium,Yes
+33,Low: < 0.5 Sq. Km,Medium: 1000-3000,Low: 0-5 Bft,Medium,High,Yes
+34,Low: < 0.5 Sq. Km,Medium: 1000-3000,Low: 0-5 Bft,High,Low,Yes
+35,Low: < 0.5 Sq. Km,Medium: 1000-3000,Low: 0-5 Bft,High,Medium,Yes
+36,Low: < 0.5 Sq. Km,Medium: 1000-3000,Low: 0-5 Bft,High,High,Yes
+37,Low: < 0.5 Sq. Km,Medium: 1000-3000,Medium: 5-8 Bft,Low,Low,No
+38,Low: < 0.5 Sq. Km,Medium: 1000-3000,Medium: 5-8 Bft,Low,Medium,Yes
+39,Low: < 0.5 Sq. Km,Medium: 1000-3000,Medium: 5-8 Bft,Low,High,Yes
+40,Low: < 0.5 Sq. Km,Medium: 1000-3000,Medium: 5-8 Bft,Medium,Low,Yes
+41,Low: < 0.5 Sq. Km,Medium: 1000-3000,Medium: 5-8 Bft,Medium,Medium,Yes
+42,Low: < 0.5 Sq. Km,Medium: 1000-3000,Medium: 5-8 Bft,Medium,High,Yes
+43,Low: < 0.5 Sq. Km,Medium: 1000-3000,Medium: 5-8 Bft,High,Low,Yes
+44,Low: < 0.5 Sq. Km,Medium: 1000-3000,Medium: 5-8 Bft,High,Medium,Yes
+45,Low: < 0.5 Sq. Km,Medium: 1000-3000,Medium: 5-8 Bft,High,High,Yes
+46,Low: < 0.5 Sq. Km,Medium: 1000-3000,High: > 8 Bft,Low,Low,No
+47,Low: < 0.5 Sq. Km,Medium: 1000-3000,High: > 8 Bft,Low,Medium,Yes
+48,Low: < 0.5 Sq. Km,Medium: 1000-3000,High: > 8 Bft,Low,High,Yes
+49,Low: < 0.5 Sq. Km,Medium: 1000-3000,High: > 8 Bft,Medium,Low,Yes
+50,Low: < 0.5 Sq. Km,Medium: 1000-3000,High: > 8 Bft,Medium,Medium,Yes
+51,Low: < 0.5 Sq. Km,Medium: 1000-3000,High: > 8 Bft,Medium,High,Yes
+52,Low: < 0.5 Sq. Km,Medium: 1000-3000,High: > 8 Bft,High,Low,Yes
+53,Low: < 0.5 Sq. Km,Medium: 1000-3000,High: > 8 Bft,High,Medium,Yes
+54,Low: < 0.5 Sq. Km,Medium: 1000-3000,High: > 8 Bft,High,High,Yes
+55,Low: < 0.5 Sq. Km,High: >3000,Low: 0-5 Bft,Low,Low,No
+56,Low: < 0.5 Sq. Km,High: >3000,Low: 0-5 Bft,Low,Medium,Yes
+57,Low: < 0.5 Sq. Km,High: >3000,Low: 0-5 Bft,Low,High,Yes
+58,Low: < 0.5 Sq. Km,High: >3000,Low: 0-5 Bft,Medium,Low,Yes
+59,Low: < 0.5 Sq. Km,High: >3000,Low: 0-5 Bft,Medium,Medium,Yes
+60,Low: < 0.5 Sq. Km,High: >3000,Low: 0-5 Bft,Medium,High,Yes
+61,Low: < 0.5 Sq. Km,High: >3000,Low: 0-5 Bft,High,Low,Yes
+62,Low: < 0.5 Sq. Km,High: >3000,Low: 0-5 Bft,High,Medium,Yes
+63,Low: < 0.5 Sq. Km,High: >3000,Low: 0-5 Bft,High,High,Yes
+64,Low: < 0.5 Sq. Km,High: >3000,Medium: 5-8 Bft,Low,Low,No
+65,Low: < 0.5 Sq. Km,High: >3000,Medium: 5-8 Bft,Low,Medium,Yes
+66,Low: < 0.5 Sq. Km,High: >3000,Medium: 5-8 Bft,Low,High,Yes
+67,Low: < 0.5 Sq. Km,High: >3000,Medium: 5-8 Bft,Medium,Low,Yes
+68,Low: < 0.5 Sq. Km,High: >3000,Medium: 5-8 Bft,Medium,Medium,Yes
+69,Low: < 0.5 Sq. Km,High: >3000,Medium: 5-8 Bft,Medium,High,Yes
+70,Low: < 0.5 Sq. Km,High: >3000,Medium: 5-8 Bft,High,Low,Yes
+71,Low: < 0.5 Sq. Km,High: >3000,Medium: 5-8 Bft,High,Medium,Yes
+72,Low: < 0.5 Sq. Km,High: >3000,Medium: 5-8 Bft,High,High,Yes
+73,Low: < 0.5 Sq. Km,High: >3000,High: > 8 Bft,Low,Low,No
+74,Low: < 0.5 Sq. Km,High: >3000,High: > 8 Bft,Low,Medium,Yes
+75,Low: < 0.5 Sq. Km,High: >3000,High: > 8 Bft,Low,High,Yes
+76,Low: < 0.5 Sq. Km,High: >3000,High: > 8 Bft,Medium,Low,Yes
+77,Low: < 0.5 Sq. Km,High: >3000,High: > 8 Bft,Medium,Medium,Yes
+78,Low: < 0.5 Sq. Km,High: >3000,High: > 8 Bft,Medium,High,Yes
+79,Low: < 0.5 Sq. Km,High: >3000,High: > 8 Bft,High,Low,Yes
+80,Low: < 0.5 Sq. Km,High: >3000,High: > 8 Bft,High,Medium,Yes
+81,Low: < 0.5 Sq. Km,High: >3000,High: > 8 Bft,High,High,Yes
+82,Medium: 0.5-1 Sq. Km,Low: < 1000 ,Low: 0-5 Bft,Low,Low,No
+83,Medium: 0.5-1 Sq. Km,Low: < 1000 ,Low: 0-5 Bft,Low,Medium,Yes
+84,Medium: 0.5-1 Sq. Km,Low: < 1000 ,Low: 0-5 Bft,Low,High,Yes
+85,Medium: 0.5-1 Sq. Km,Low: < 1000 ,Low: 0-5 Bft,Medium,Low,Yes
+86,Medium: 0.5-1 Sq. Km,Low: < 1000 ,Low: 0-5 Bft,Medium,Medium,Yes
+87,Medium: 0.5-1 Sq. Km,Low: < 1000 ,Low: 0-5 Bft,Medium,High,Yes
+88,Medium: 0.5-1 Sq. Km,Low: < 1000 ,Low: 0-5 Bft,High,Low,Yes
+89,Medium: 0.5-1 Sq. Km,Low: < 1000 ,Low: 0-5 Bft,High,Medium,Yes
+90,Medium: 0.5-1 Sq. Km,Low: < 1000 ,Low: 0-5 Bft,High,High,Yes
+91,Medium: 0.5-1 Sq. Km,Low: < 1000 ,Medium: 5-8 Bft,Low,Low,No
+92,Medium: 0.5-1 Sq. Km,Low: < 1000 ,Medium: 5-8 Bft,Low,Medium,Yes
+93,Medium: 0.5-1 Sq. Km,Low: < 1000 ,Medium: 5-8 Bft,Low,High,Yes
+94,Medium: 0.5-1 Sq. Km,Low: < 1000 ,Medium: 5-8 Bft,Medium,Low,Yes
+95,Medium: 0.5-1 Sq. Km,Low: < 1000 ,Medium: 5-8 Bft,Medium,Medium,Yes
+96,Medium: 0.5-1 Sq. Km,Low: < 1000 ,Medium: 5-8 Bft,Medium,High,Yes
+97,Medium: 0.5-1 Sq. Km,Low: < 1000 ,Medium: 5-8 Bft,High,Low,Yes
+98,Medium: 0.5-1 Sq. Km,Low: < 1000 ,Medium: 5-8 Bft,High,Medium,Yes
+99,Medium: 0.5-1 Sq. Km,Low: < 1000 ,Medium: 5-8 Bft,High,High,Yes
+100,Medium: 0.5-1 Sq. Km,Low: < 1000 ,High: > 8 Bft,Low,Low,No
+101,Medium: 0.5-1 Sq. Km,Low: < 1000 ,High: > 8 Bft,Low,Medium,Yes
+102,Medium: 0.5-1 Sq. Km,Low: < 1000 ,High: > 8 Bft,Low,High,Yes
+103,Medium: 0.5-1 Sq. Km,Low: < 1000 ,High: > 8 Bft,Medium,Low,Yes
+104,Medium: 0.5-1 Sq. Km,Low: < 1000 ,High: > 8 Bft,Medium,Medium,Yes
+105,Medium: 0.5-1 Sq. Km,Low: < 1000 ,High: > 8 Bft,Medium,High,Yes
+106,Medium: 0.5-1 Sq. Km,Low: < 1000 ,High: > 8 Bft,High,Low,Yes
+107,Medium: 0.5-1 Sq. Km,Low: < 1000 ,High: > 8 Bft,High,Medium,Yes
+108,Medium: 0.5-1 Sq. Km,Low: < 1000 ,High: > 8 Bft,High,High,Yes
+109,Medium: 0.5-1 Sq. Km,Medium: 1000-3000,Low: 0-5 Bft,Low,Low,Yes
+110,Medium: 0.5-1 Sq. Km,Medium: 1000-3000,Low: 0-5 Bft,Low,Medium,Yes
+111,Medium: 0.5-1 Sq. Km,Medium: 1000-3000,Low: 0-5 Bft,Low,High,Yes
+112,Medium: 0.5-1 Sq. Km,Medium: 1000-3000,Low: 0-5 Bft,Medium,Low,Yes
+113,Medium: 0.5-1 Sq. Km,Medium: 1000-3000,Low: 0-5 Bft,Medium,Medium,Yes
+114,Medium: 0.5-1 Sq. Km,Medium: 1000-3000,Low: 0-5 Bft,Medium,High,Yes
+115,Medium: 0.5-1 Sq. Km,Medium: 1000-3000,Low: 0-5 Bft,High,Low,Yes
+116,Medium: 0.5-1 Sq. Km,Medium: 1000-3000,Low: 0-5 Bft,High,Medium,Yes
+117,Medium: 0.5-1 Sq. Km,Medium: 1000-3000,Low: 0-5 Bft,High,High,Yes
+118,Medium: 0.5-1 Sq. Km,Medium: 1000-3000,Medium: 5-8 Bft,Low,Low,Yes
+119,Medium: 0.5-1 Sq. Km,Medium: 1000-3000,Medium: 5-8 Bft,Low,Medium,Yes
+120,Medium: 0.5-1 Sq. Km,Medium: 1000-3000,Medium: 5-8 Bft,Low,High,Yes
+121,Medium: 0.5-1 Sq. Km,Medium: 1000-3000,Medium: 5-8 Bft,Medium,Low,Yes
+122,Medium: 0.5-1 Sq. Km,Medium: 1000-3000,Medium: 5-8 Bft,Medium,Medium,Yes
+123,Medium: 0.5-1 Sq. Km,Medium: 1000-3000,Medium: 5-8 Bft,Medium,High,Yes
+124,Medium: 0.5-1 Sq. Km,Medium: 1000-3000,Medium: 5-8 Bft,High,Low,Yes
+125,Medium: 0.5-1 Sq. Km,Medium: 1000-3000,Medium: 5-8 Bft,High,Medium,Yes
+126,Medium: 0.5-1 Sq. Km,Medium: 1000-3000,Medium: 5-8 Bft,High,High,Yes
+127,Medium: 0.5-1 Sq. Km,Medium: 1000-3000,High: > 8 Bft,Low,Low,Yes
+128,Medium: 0.5-1 Sq. Km,Medium: 1000-3000,High: > 8 Bft,Low,Medium,Yes
+129,Medium: 0.5-1 Sq. Km,Medium: 1000-3000,High: > 8 Bft,Low,High,Yes
+130,Medium: 0.5-1 Sq. Km,Medium: 1000-3000,High: > 8 Bft,Medium,Low,Yes
+131,Medium: 0.5-1 Sq. Km,Medium: 1000-3000,High: > 8 Bft,Medium,Medium,Yes
+132,Medium: 0.5-1 Sq. Km,Medium: 1000-3000,High: > 8 Bft,Medium,High,Yes
+133,Medium: 0.5-1 Sq. Km,Medium: 1000-3000,High: > 8 Bft,High,Low,Yes
+134,Medium: 0.5-1 Sq. Km,Medium: 1000-3000,High: > 8 Bft,High,Medium,Yes
+135,Medium: 0.5-1 Sq. Km,Medium: 1000-3000,High: > 8 Bft,High,High,Yes
+136,Medium: 0.5-1 Sq. Km,High: >3000,Low: 0-5 Bft,Low,Low,Yes
+137,Medium: 0.5-1 Sq. Km,High: >3000,Low: 0-5 Bft,Low,Medium,Yes
+138,Medium: 0.5-1 Sq. Km,High: >3000,Low: 0-5 Bft,Low,High,Yes
+139,Medium: 0.5-1 Sq. Km,High: >3000,Low: 0-5 Bft,Medium,Low,Yes
+140,Medium: 0.5-1 Sq. Km,High: >3000,Low: 0-5 Bft,Medium,Medium,Yes
+141,Medium: 0.5-1 Sq. Km,High: >3000,Low: 0-5 Bft,Medium,High,Yes
+142,Medium: 0.5-1 Sq. Km,High: >3000,Low: 0-5 Bft,High,Low,Yes
+143,Medium: 0.5-1 Sq. Km,High: >3000,Low: 0-5 Bft,High,Medium,Yes
+144,Medium: 0.5-1 Sq. Km,High: >3000,Low: 0-5 Bft,High,High,Yes
+145,Medium: 0.5-1 Sq. Km,High: >3000,Medium: 5-8 Bft,Low,Low,Yes
+146,Medium: 0.5-1 Sq. Km,High: >3000,Medium: 5-8 Bft,Low,Medium,Yes
+147,Medium: 0.5-1 Sq. Km,High: >3000,Medium: 5-8 Bft,Low,High,Yes
+148,Medium: 0.5-1 Sq. Km,High: >3000,Medium: 5-8 Bft,Medium,Low,Yes
+149,Medium: 0.5-1 Sq. Km,High: >3000,Medium: 5-8 Bft,Medium,Medium,Yes
+150,Medium: 0.5-1 Sq. Km,High: >3000,Medium: 5-8 Bft,Medium,High,Yes
+151,Medium: 0.5-1 Sq. Km,High: >3000,Medium: 5-8 Bft,High,Low,Yes
+152,Medium: 0.5-1 Sq. Km,High: >3000,Medium: 5-8 Bft,High,Medium,Yes
+153,Medium: 0.5-1 Sq. Km,High: >3000,Medium: 5-8 Bft,High,High,Yes
+154,Medium: 0.5-1 Sq. Km,High: >3000,High: > 8 Bft,Low,Low,Yes
+155,Medium: 0.5-1 Sq. Km,High: >3000,High: > 8 Bft,Low,Medium,Yes
+156,Medium: 0.5-1 Sq. Km,High: >3000,High: > 8 Bft,Low,High,Yes
+157,Medium: 0.5-1 Sq. Km,High: >3000,High: > 8 Bft,Medium,Low,Yes
+158,Medium: 0.5-1 Sq. Km,High: >3000,High: > 8 Bft,Medium,Medium,Yes
+159,Medium: 0.5-1 Sq. Km,High: >3000,High: > 8 Bft,Medium,High,Yes
+160,Medium: 0.5-1 Sq. Km,High: >3000,High: > 8 Bft,High,Low,Yes
+161,Medium: 0.5-1 Sq. Km,High: >3000,High: > 8 Bft,High,Medium,Yes
+162,Medium: 0.5-1 Sq. Km,High: >3000,High: > 8 Bft,High,High,Yes
+163,High: > 1 Sq. Km,Low: < 1000 ,Low: 0-5 Bft,Low,Low,Yes
+164,High: > 1 Sq. Km,Low: < 1000 ,Low: 0-5 Bft,Low,Medium,Yes
+165,High: > 1 Sq. Km,Low: < 1000 ,Low: 0-5 Bft,Low,High,Yes
+166,High: > 1 Sq. Km,Low: < 1000 ,Low: 0-5 Bft,Medium,Low,Yes
+167,High: > 1 Sq. Km,Low: < 1000 ,Low: 0-5 Bft,Medium,Medium,Yes
+168,High: > 1 Sq. Km,Low: < 1000 ,Low: 0-5 Bft,Medium,High,Yes
+169,High: > 1 Sq. Km,Low: < 1000 ,Low: 0-5 Bft,High,Low,Yes
+170,High: > 1 Sq. Km,Low: < 1000 ,Low: 0-5 Bft,High,Medium,Yes
+171,High: > 1 Sq. Km,Low: < 1000 ,Low: 0-5 Bft,High,High,Yes
+172,High: > 1 Sq. Km,Low: < 1000 ,Medium: 5-8 Bft,Low,Low,Yes
+173,High: > 1 Sq. Km,Low: < 1000 ,Medium: 5-8 Bft,Low,Medium,Yes
+174,High: > 1 Sq. Km,Low: < 1000 ,Medium: 5-8 Bft,Low,High,Yes
+175,High: > 1 Sq. Km,Low: < 1000 ,Medium: 5-8 Bft,Medium,Low,Yes
+176,High: > 1 Sq. Km,Low: < 1000 ,Medium: 5-8 Bft,Medium,Medium,Yes
+177,High: > 1 Sq. Km,Low: < 1000 ,Medium: 5-8 Bft,Medium,High,Yes
+178,High: > 1 Sq. Km,Low: < 1000 ,Medium: 5-8 Bft,High,Low,Yes
+179,High: > 1 Sq. Km,Low: < 1000 ,Medium: 5-8 Bft,High,Medium,Yes
+180,High: > 1 Sq. Km,Low: < 1000 ,Medium: 5-8 Bft,High,High,Yes
+181,High: > 1 Sq. Km,Low: < 1000 ,High: > 8 Bft,Low,Low,Yes
+182,High: > 1 Sq. Km,Low: < 1000 ,High: > 8 Bft,Low,Medium,Yes
+183,High: > 1 Sq. Km,Low: < 1000 ,High: > 8 Bft,Low,High,Yes
+184,High: > 1 Sq. Km,Low: < 1000 ,High: > 8 Bft,Medium,Low,Yes
+185,High: > 1 Sq. Km,Low: < 1000 ,High: > 8 Bft,Medium,Medium,Yes
+186,High: > 1 Sq. Km,Low: < 1000 ,High: > 8 Bft,Medium,High,Yes
+187,High: > 1 Sq. Km,Low: < 1000 ,High: > 8 Bft,High,Low,Yes
+188,High: > 1 Sq. Km,Low: < 1000 ,High: > 8 Bft,High,Medium,Yes
+189,High: > 1 Sq. Km,Low: < 1000 ,High: > 8 Bft,High,High,Yes
+190,High: > 1 Sq. Km,Medium: 1000-3000,Low: 0-5 Bft,Low,Low,Yes
+191,High: > 1 Sq. Km,Medium: 1000-3000,Low: 0-5 Bft,Low,Medium,Yes
+192,High: > 1 Sq. Km,Medium: 1000-3000,Low: 0-5 Bft,Low,High,Yes
+193,High: > 1 Sq. Km,Medium: 1000-3000,Low: 0-5 Bft,Medium,Low,Yes
+194,High: > 1 Sq. Km,Medium: 1000-3000,Low: 0-5 Bft,Medium,Medium,Yes
+195,High: > 1 Sq. Km,Medium: 1000-3000,Low: 0-5 Bft,Medium,High,Yes
+196,High: > 1 Sq. Km,Medium: 1000-3000,Low: 0-5 Bft,High,Low,Yes
+197,High: > 1 Sq. Km,Medium: 1000-3000,Low: 0-5 Bft,High,Medium,Yes
+198,High: > 1 Sq. Km,Medium: 1000-3000,Low: 0-5 Bft,High,High,Yes
+199,High: > 1 Sq. Km,Medium: 1000-3000,Medium: 5-8 Bft,Low,Low,Yes
+200,High: > 1 Sq. Km,Medium: 1000-3000,Medium: 5-8 Bft,Low,Medium,Yes
+201,High: > 1 Sq. Km,Medium: 1000-3000,Medium: 5-8 Bft,Low,High,Yes
+202,High: > 1 Sq. Km,Medium: 1000-3000,Medium: 5-8 Bft,Medium,Low,Yes
+203,High: > 1 Sq. Km,Medium: 1000-3000,Medium: 5-8 Bft,Medium,Medium,Yes
+204,High: > 1 Sq. Km,Medium: 1000-3000,Medium: 5-8 Bft,Medium,High,Yes
+205,High: > 1 Sq. Km,Medium: 1000-3000,Medium: 5-8 Bft,High,Low,Yes
+206,High: > 1 Sq. Km,Medium: 1000-3000,Medium: 5-8 Bft,High,Medium,Yes
+207,High: > 1 Sq. Km,Medium: 1000-3000,Medium: 5-8 Bft,High,High,Yes
+208,High: > 1 Sq. Km,Medium: 1000-3000,High: > 8 Bft,Low,Low,Yes
+209,High: > 1 Sq. Km,Medium: 1000-3000,High: > 8 Bft,Low,Medium,Yes
+210,High: > 1 Sq. Km,Medium: 1000-3000,High: > 8 Bft,Low,High,Yes
+211,High: > 1 Sq. Km,Medium: 1000-3000,High: > 8 Bft,Medium,Low,Yes
+212,High: > 1 Sq. Km,Medium: 1000-3000,High: > 8 Bft,Medium,Medium,Yes
+213,High: > 1 Sq. Km,Medium: 1000-3000,High: > 8 Bft,Medium,High,Yes
+214,High: > 1 Sq. Km,Medium: 1000-3000,High: > 8 Bft,High,Low,Yes
+215,High: > 1 Sq. Km,Medium: 1000-3000,High: > 8 Bft,High,Medium,Yes
+216,High: > 1 Sq. Km,Medium: 1000-3000,High: > 8 Bft,High,High,Yes
+217,High: > 1 Sq. Km,High: >3000,Low: 0-5 Bft,Low,Low,Yes
+218,High: > 1 Sq. Km,High: >3000,Low: 0-5 Bft,Low,Medium,Yes
+219,High: > 1 Sq. Km,High: >3000,Low: 0-5 Bft,Low,High,Yes
+220,High: > 1 Sq. Km,High: >3000,Low: 0-5 Bft,Medium,Low,Yes
+221,High: > 1 Sq. Km,High: >3000,Low: 0-5 Bft,Medium,Medium,Yes
+222,High: > 1 Sq. Km,High: >3000,Low: 0-5 Bft,Medium,High,Yes
+223,High: > 1 Sq. Km,High: >3000,Low: 0-5 Bft,High,Low,Yes
+224,High: > 1 Sq. Km,High: >3000,Low: 0-5 Bft,High,Medium,Yes
+225,High: > 1 Sq. Km,High: >3000,Low: 0-5 Bft,High,High,Yes
+226,High: > 1 Sq. Km,High: >3000,Medium: 5-8 Bft,Low,Low,Yes
+227,High: > 1 Sq. Km,High: >3000,Medium: 5-8 Bft,Low,Medium,Yes
+228,High: > 1 Sq. Km,High: >3000,Medium: 5-8 Bft,Low,High,Yes
+229,High: > 1 Sq. Km,High: >3000,Medium: 5-8 Bft,Medium,Low,Yes
+230,High: > 1 Sq. Km,High: >3000,Medium: 5-8 Bft,Medium,Medium,Yes
+231,High: > 1 Sq. Km,High: >3000,Medium: 5-8 Bft,Medium,High,Yes
+232,High: > 1 Sq. Km,High: >3000,Medium: 5-8 Bft,High,Low,Yes
+233,High: > 1 Sq. Km,High: >3000,Medium: 5-8 Bft,High,Medium,Yes
+234,High: > 1 Sq. Km,High: >3000,Medium: 5-8 Bft,High,High,Yes
+235,High: > 1 Sq. Km,High: >3000,High: > 8 Bft,Low,Low,Yes
+236,High: > 1 Sq. Km,High: >3000,High: > 8 Bft,Low,Medium,Yes
+237,High: > 1 Sq. Km,High: >3000,High: > 8 Bft,Low,High,Yes
+238,High: > 1 Sq. Km,High: >3000,High: > 8 Bft,Medium,Low,Yes
+239,High: > 1 Sq. Km,High: >3000,High: > 8 Bft,Medium,Medium,Yes
+240,High: > 1 Sq. Km,High: >3000,High: > 8 Bft,Medium,High,Yes
+241,High: > 1 Sq. Km,High: >3000,High: > 8 Bft,High,Low,Yes
+242,High: > 1 Sq. Km,High: >3000,High: > 8 Bft,High,Medium,Yes
+243,High: > 1 Sq. Km,High: >3000,High: > 8 Bft,High,High,Yes

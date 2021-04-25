@@ -1,0 +1,332 @@
+Use Case Scenario #01: Fire Open Space - Fire-Fighters Needed,,,,,,,
+"Factors
+(Each Line Represents a different scenario)",,,,,,,Decision
+No.,"Area Covered 
+Sq. Km. ","Population 
+(No. of Citizens)","Wind Speed
+(Bft)","Temperature
+(Celcius)",Terrain,Vegetation,Estimated Need in firefighters
+1,Low: < 1 Sq. Km,Low: < 1000 ,Low: 0-5 Bft,Low: < 20 °C,Flat,Scrubland,Low: < 20
+2,Low: < 1 Sq. Km,Low: < 1000 ,Low: 0-5 Bft,Low: < 20 °C,Flat,Coniferous forest,Low: < 20
+3,Low: < 1 Sq. Km,Low: < 1000 ,Low: 0-5 Bft,Low: < 20 °C,Slopping,Scrubland,Low: < 20
+4,Low: < 1 Sq. Km,Low: < 1000 ,Low: 0-5 Bft,Low: < 20 °C,Slopping,Coniferous forest,Low: < 20
+5,Low: < 1 Sq. Km,Low: < 1000 ,Low: 0-5 Bft,Medium: 20 – 30 °C,Flat,Scrubland,Low: < 20
+6,Low: < 1 Sq. Km,Low: < 1000 ,Low: 0-5 Bft,Medium: 20 – 30 °C,Flat,Coniferous forest,Medium: 20-60
+7,Low: < 1 Sq. Km,Low: < 1000 ,Low: 0-5 Bft,Medium: 20 – 30 °C,Slopping,Scrubland,Low: < 20
+8,Low: < 1 Sq. Km,Low: < 1000 ,Low: 0-5 Bft,Medium: 20 – 30 °C,Slopping,Coniferous forest,Medium: 20-60
+9,Low: < 1 Sq. Km,Low: < 1000 ,Low: 0-5 Bft,High: 30+ °C,Flat,Scrubland,Low: < 20
+10,Low: < 1 Sq. Km,Low: < 1000 ,Low: 0-5 Bft,High: 30+ °C,Flat,Coniferous forest,Medium: 20-60
+11,Low: < 1 Sq. Km,Low: < 1000 ,Low: 0-5 Bft,High: 30+ °C,Slopping,Scrubland,Low: < 20
+12,Low: < 1 Sq. Km,Low: < 1000 ,Low: 0-5 Bft,High: 30+ °C,Slopping,Coniferous forest,Medium: 20-60
+13,Low: < 1 Sq. Km,Low: < 1000 ,Medium: 5-8 Bft,Low: < 20 °C,Flat,Scrubland,Low: < 20
+14,Low: < 1 Sq. Km,Low: < 1000 ,Medium: 5-8 Bft,Low: < 20 °C,Flat,Coniferous forest,Medium: 20-60
+15,Low: < 1 Sq. Km,Low: < 1000 ,Medium: 5-8 Bft,Low: < 20 °C,Slopping,Scrubland,Low: < 20
+16,Low: < 1 Sq. Km,Low: < 1000 ,Medium: 5-8 Bft,Low: < 20 °C,Slopping,Coniferous forest,Medium: 20-60
+17,Low: < 1 Sq. Km,Low: < 1000 ,Medium: 5-8 Bft,Medium: 20 – 30 °C,Flat,Scrubland,Low: < 20
+18,Low: < 1 Sq. Km,Low: < 1000 ,Medium: 5-8 Bft,Medium: 20 – 30 °C,Flat,Coniferous forest,Medium: 20-60
+19,Low: < 1 Sq. Km,Low: < 1000 ,Medium: 5-8 Bft,Medium: 20 – 30 °C,Slopping,Scrubland,Low: < 20
+20,Low: < 1 Sq. Km,Low: < 1000 ,Medium: 5-8 Bft,Medium: 20 – 30 °C,Slopping,Coniferous forest,Medium: 20-60
+21,Low: < 1 Sq. Km,Low: < 1000 ,Medium: 5-8 Bft,High: 30+ °C,Flat,Scrubland,Low: < 20
+22,Low: < 1 Sq. Km,Low: < 1000 ,Medium: 5-8 Bft,High: 30+ °C,Flat,Coniferous forest,Medium: 20-60
+23,Low: < 1 Sq. Km,Low: < 1000 ,Medium: 5-8 Bft,High: 30+ °C,Slopping,Scrubland,Low: < 20
+24,Low: < 1 Sq. Km,Low: < 1000 ,Medium: 5-8 Bft,High: 30+ °C,Slopping,Coniferous forest,Medium: 20-60
+25,Low: < 1 Sq. Km,Low: < 1000 ,High: > 8 Bft,Low: < 20 °C,Flat,Scrubland,Low: < 20
+26,Low: < 1 Sq. Km,Low: < 1000 ,High: > 8 Bft,Low: < 20 °C,Flat,Coniferous forest,Medium: 20-60
+27,Low: < 1 Sq. Km,Low: < 1000 ,High: > 8 Bft,Low: < 20 °C,Slopping,Scrubland,Low: < 20
+28,Low: < 1 Sq. Km,Low: < 1000 ,High: > 8 Bft,Low: < 20 °C,Slopping,Coniferous forest,Medium: 20-60
+29,Low: < 1 Sq. Km,Low: < 1000 ,High: > 8 Bft,Medium: 20 – 30 °C,Flat,Scrubland,Low: < 20
+30,Low: < 1 Sq. Km,Low: < 1000 ,High: > 8 Bft,Medium: 20 – 30 °C,Flat,Coniferous forest,Medium: 20-60
+31,Low: < 1 Sq. Km,Low: < 1000 ,High: > 8 Bft,Medium: 20 – 30 °C,Slopping,Scrubland,Low: < 20
+32,Low: < 1 Sq. Km,Low: < 1000 ,High: > 8 Bft,Medium: 20 – 30 °C,Slopping,Coniferous forest,Medium: 20-60
+33,Low: < 1 Sq. Km,Low: < 1000 ,High: > 8 Bft,High: 30+ °C,Flat,Scrubland,Medium: 20-60
+34,Low: < 1 Sq. Km,Low: < 1000 ,High: > 8 Bft,High: 30+ °C,Flat,Coniferous forest,Medium: 20-60
+35,Low: < 1 Sq. Km,Low: < 1000 ,High: > 8 Bft,High: 30+ °C,Slopping,Scrubland,Medium: 20-60
+36,Low: < 1 Sq. Km,Low: < 1000 ,High: > 8 Bft,High: 30+ °C,Slopping,Coniferous forest,Medium: 20-60
+37,Low: < 1 Sq. Km,Medium: 1000-5000,Low: 0-5 Bft,Low: < 20 °C,Flat,Scrubland,Medium: 20-60
+38,Low: < 1 Sq. Km,Medium: 1000-5000,Low: 0-5 Bft,Low: < 20 °C,Flat,Coniferous forest,Medium: 20-60
+39,Low: < 1 Sq. Km,Medium: 1000-5000,Low: 0-5 Bft,Low: < 20 °C,Slopping,Scrubland,Medium: 20-60
+40,Low: < 1 Sq. Km,Medium: 1000-5000,Low: 0-5 Bft,Low: < 20 °C,Slopping,Coniferous forest,Medium: 20-60
+41,Low: < 1 Sq. Km,Medium: 1000-5000,Low: 0-5 Bft,Medium: 20 – 30 °C,Flat,Scrubland,Medium: 20-60
+42,Low: < 1 Sq. Km,Medium: 1000-5000,Low: 0-5 Bft,Medium: 20 – 30 °C,Flat,Coniferous forest,Medium: 20-60
+43,Low: < 1 Sq. Km,Medium: 1000-5000,Low: 0-5 Bft,Medium: 20 – 30 °C,Slopping,Scrubland,Medium: 20-60
+44,Low: < 1 Sq. Km,Medium: 1000-5000,Low: 0-5 Bft,Medium: 20 – 30 °C,Slopping,Coniferous forest,Medium: 20-60
+45,Low: < 1 Sq. Km,Medium: 1000-5000,Low: 0-5 Bft,High: 30+ °C,Flat,Scrubland,Medium: 20-60
+46,Low: < 1 Sq. Km,Medium: 1000-5000,Low: 0-5 Bft,High: 30+ °C,Flat,Coniferous forest,Medium: 20-60
+47,Low: < 1 Sq. Km,Medium: 1000-5000,Low: 0-5 Bft,High: 30+ °C,Slopping,Scrubland,Medium: 20-60
+48,Low: < 1 Sq. Km,Medium: 1000-5000,Low: 0-5 Bft,High: 30+ °C,Slopping,Coniferous forest,Medium: 20-60
+49,Low: < 1 Sq. Km,Medium: 1000-5000,Medium: 5-8 Bft,Low: < 20 °C,Flat,Scrubland,Medium: 20-60
+50,Low: < 1 Sq. Km,Medium: 1000-5000,Medium: 5-8 Bft,Low: < 20 °C,Flat,Coniferous forest,Medium: 20-60
+51,Low: < 1 Sq. Km,Medium: 1000-5000,Medium: 5-8 Bft,Low: < 20 °C,Slopping,Scrubland,Medium: 20-60
+52,Low: < 1 Sq. Km,Medium: 1000-5000,Medium: 5-8 Bft,Low: < 20 °C,Slopping,Coniferous forest,Medium: 20-60
+53,Low: < 1 Sq. Km,Medium: 1000-5000,Medium: 5-8 Bft,Medium: 20 – 30 °C,Flat,Scrubland,Medium: 20-60
+54,Low: < 1 Sq. Km,Medium: 1000-5000,Medium: 5-8 Bft,Medium: 20 – 30 °C,Flat,Coniferous forest,Medium: 20-60
+55,Low: < 1 Sq. Km,Medium: 1000-5000,Medium: 5-8 Bft,Medium: 20 – 30 °C,Slopping,Scrubland,Medium: 20-60
+56,Low: < 1 Sq. Km,Medium: 1000-5000,Medium: 5-8 Bft,Medium: 20 – 30 °C,Slopping,Coniferous forest,Medium: 20-60
+57,Low: < 1 Sq. Km,Medium: 1000-5000,Medium: 5-8 Bft,High: 30+ °C,Flat,Scrubland,Medium: 20-60
+58,Low: < 1 Sq. Km,Medium: 1000-5000,Medium: 5-8 Bft,High: 30+ °C,Flat,Coniferous forest,Medium: 20-60
+59,Low: < 1 Sq. Km,Medium: 1000-5000,Medium: 5-8 Bft,High: 30+ °C,Slopping,Scrubland,Medium: 20-60
+60,Low: < 1 Sq. Km,Medium: 1000-5000,Medium: 5-8 Bft,High: 30+ °C,Slopping,Coniferous forest,Medium: 20-60
+61,Low: < 1 Sq. Km,Medium: 1000-5000,High: > 8 Bft,Low: < 20 °C,Flat,Scrubland,Medium: 20-60
+62,Low: < 1 Sq. Km,Medium: 1000-5000,High: > 8 Bft,Low: < 20 °C,Flat,Coniferous forest,Medium: 20-60
+63,Low: < 1 Sq. Km,Medium: 1000-5000,High: > 8 Bft,Low: < 20 °C,Slopping,Scrubland,Medium: 20-60
+64,Low: < 1 Sq. Km,Medium: 1000-5000,High: > 8 Bft,Low: < 20 °C,Slopping,Coniferous forest,Medium: 20-60
+65,Low: < 1 Sq. Km,Medium: 1000-5000,High: > 8 Bft,Medium: 20 – 30 °C,Flat,Scrubland,Medium: 20-60
+66,Low: < 1 Sq. Km,Medium: 1000-5000,High: > 8 Bft,Medium: 20 – 30 °C,Flat,Coniferous forest,Medium: 20-60
+67,Low: < 1 Sq. Km,Medium: 1000-5000,High: > 8 Bft,Medium: 20 – 30 °C,Slopping,Scrubland,Medium: 20-60
+68,Low: < 1 Sq. Km,Medium: 1000-5000,High: > 8 Bft,Medium: 20 – 30 °C,Slopping,Coniferous forest,Medium: 20-60
+69,Low: < 1 Sq. Km,Medium: 1000-5000,High: > 8 Bft,High: 30+ °C,Flat,Scrubland,Medium: 20-60
+70,Low: < 1 Sq. Km,Medium: 1000-5000,High: > 8 Bft,High: 30+ °C,Flat,Coniferous forest,Medium: 20-60
+71,Low: < 1 Sq. Km,Medium: 1000-5000,High: > 8 Bft,High: 30+ °C,Slopping,Scrubland,Medium: 20-60
+72,Low: < 1 Sq. Km,Medium: 1000-5000,High: > 8 Bft,High: 30+ °C,Slopping,Coniferous forest,Medium: 20-60
+73,Low: < 1 Sq. Km,High: >5000,Low: 0-5 Bft,Low: < 20 °C,Flat,Scrubland,Medium: 20-60
+74,Low: < 1 Sq. Km,High: >5000,Low: 0-5 Bft,Low: < 20 °C,Flat,Coniferous forest,Medium: 20-60
+75,Low: < 1 Sq. Km,High: >5000,Low: 0-5 Bft,Low: < 20 °C,Slopping,Scrubland,Medium: 20-60
+76,Low: < 1 Sq. Km,High: >5000,Low: 0-5 Bft,Low: < 20 °C,Slopping,Coniferous forest,Medium: 20-60
+77,Low: < 1 Sq. Km,High: >5000,Low: 0-5 Bft,Medium: 20 – 30 °C,Flat,Scrubland,Medium: 20-60
+78,Low: < 1 Sq. Km,High: >5000,Low: 0-5 Bft,Medium: 20 – 30 °C,Flat,Coniferous forest,Medium: 20-60
+79,Low: < 1 Sq. Km,High: >5000,Low: 0-5 Bft,Medium: 20 – 30 °C,Slopping,Scrubland,Medium: 20-60
+80,Low: < 1 Sq. Km,High: >5000,Low: 0-5 Bft,Medium: 20 – 30 °C,Slopping,Coniferous forest,Medium: 20-60
+81,Low: < 1 Sq. Km,High: >5000,Low: 0-5 Bft,High: 30+ °C,Flat,Scrubland,Medium: 20-60
+82,Low: < 1 Sq. Km,High: >5000,Low: 0-5 Bft,High: 30+ °C,Flat,Coniferous forest,Medium: 20-60
+83,Low: < 1 Sq. Km,High: >5000,Low: 0-5 Bft,High: 30+ °C,Slopping,Scrubland,Medium: 20-60
+84,Low: < 1 Sq. Km,High: >5000,Low: 0-5 Bft,High: 30+ °C,Slopping,Coniferous forest,High: >60
+85,Low: < 1 Sq. Km,High: >5000,Medium: 5-8 Bft,Low: < 20 °C,Flat,Scrubland,Medium: 20-60
+86,Low: < 1 Sq. Km,High: >5000,Medium: 5-8 Bft,Low: < 20 °C,Flat,Coniferous forest,Medium: 20-60
+87,Low: < 1 Sq. Km,High: >5000,Medium: 5-8 Bft,Low: < 20 °C,Slopping,Scrubland,Medium: 20-60
+88,Low: < 1 Sq. Km,High: >5000,Medium: 5-8 Bft,Low: < 20 °C,Slopping,Coniferous forest,Medium: 20-60
+89,Low: < 1 Sq. Km,High: >5000,Medium: 5-8 Bft,Medium: 20 – 30 °C,Flat,Scrubland,Medium: 20-60
+90,Low: < 1 Sq. Km,High: >5000,Medium: 5-8 Bft,Medium: 20 – 30 °C,Flat,Coniferous forest,Medium: 20-60
+91,Low: < 1 Sq. Km,High: >5000,Medium: 5-8 Bft,Medium: 20 – 30 °C,Slopping,Scrubland,Medium: 20-60
+92,Low: < 1 Sq. Km,High: >5000,Medium: 5-8 Bft,Medium: 20 – 30 °C,Slopping,Coniferous forest,High: >60
+93,Low: < 1 Sq. Km,High: >5000,Medium: 5-8 Bft,High: 30+ °C,Flat,Scrubland,Medium: 20-60
+94,Low: < 1 Sq. Km,High: >5000,Medium: 5-8 Bft,High: 30+ °C,Flat,Coniferous forest,Medium: 20-60
+95,Low: < 1 Sq. Km,High: >5000,Medium: 5-8 Bft,High: 30+ °C,Slopping,Scrubland,Medium: 20-60
+96,Low: < 1 Sq. Km,High: >5000,Medium: 5-8 Bft,High: 30+ °C,Slopping,Coniferous forest,High: >60
+97,Low: < 1 Sq. Km,High: >5000,High: > 8 Bft,Low: < 20 °C,Flat,Scrubland,Medium: 20-60
+98,Low: < 1 Sq. Km,High: >5000,High: > 8 Bft,Low: < 20 °C,Flat,Coniferous forest,Medium: 20-60
+99,Low: < 1 Sq. Km,High: >5000,High: > 8 Bft,Low: < 20 °C,Slopping,Scrubland,Medium: 20-60
+100,Low: < 1 Sq. Km,High: >5000,High: > 8 Bft,Low: < 20 °C,Slopping,Coniferous forest,Medium: 20-60
+101,Low: < 1 Sq. Km,High: >5000,High: > 8 Bft,Medium: 20 – 30 °C,Flat,Scrubland,Medium: 20-60
+102,Low: < 1 Sq. Km,High: >5000,High: > 8 Bft,Medium: 20 – 30 °C,Flat,Coniferous forest,Medium: 20-60
+103,Low: < 1 Sq. Km,High: >5000,High: > 8 Bft,Medium: 20 – 30 °C,Slopping,Scrubland,Medium: 20-60
+104,Low: < 1 Sq. Km,High: >5000,High: > 8 Bft,Medium: 20 – 30 °C,Slopping,Coniferous forest,High: >60
+105,Low: < 1 Sq. Km,High: >5000,High: > 8 Bft,High: 30+ °C,Flat,Scrubland,Medium: 20-60
+106,Low: < 1 Sq. Km,High: >5000,High: > 8 Bft,High: 30+ °C,Flat,Coniferous forest,Medium: 20-60
+107,Low: < 1 Sq. Km,High: >5000,High: > 8 Bft,High: 30+ °C,Slopping,Scrubland,Medium: 20-60
+108,Low: < 1 Sq. Km,High: >5000,High: > 8 Bft,High: 30+ °C,Slopping,Coniferous forest,High: >60
+109,Medium: 1-5 Sq. Km,Low: < 1000 ,Low: 0-5 Bft,Low: < 20 °C,Flat,Scrubland,Medium: 20-60
+110,Medium: 1-5 Sq. Km,Low: < 1000 ,Low: 0-5 Bft,Low: < 20 °C,Flat,Coniferous forest,Medium: 20-60
+111,Medium: 1-5 Sq. Km,Low: < 1000 ,Low: 0-5 Bft,Low: < 20 °C,Slopping,Scrubland,Medium: 20-60
+112,Medium: 1-5 Sq. Km,Low: < 1000 ,Low: 0-5 Bft,Low: < 20 °C,Slopping,Coniferous forest,Medium: 20-60
+113,Medium: 1-5 Sq. Km,Low: < 1000 ,Low: 0-5 Bft,Medium: 20 – 30 °C,Flat,Scrubland,Medium: 20-60
+114,Medium: 1-5 Sq. Km,Low: < 1000 ,Low: 0-5 Bft,Medium: 20 – 30 °C,Flat,Coniferous forest,Medium: 20-60
+115,Medium: 1-5 Sq. Km,Low: < 1000 ,Low: 0-5 Bft,Medium: 20 – 30 °C,Slopping,Scrubland,Medium: 20-60
+116,Medium: 1-5 Sq. Km,Low: < 1000 ,Low: 0-5 Bft,Medium: 20 – 30 °C,Slopping,Coniferous forest,High: >60
+117,Medium: 1-5 Sq. Km,Low: < 1000 ,Low: 0-5 Bft,High: 30+ °C,Flat,Scrubland,Medium: 20-60
+118,Medium: 1-5 Sq. Km,Low: < 1000 ,Low: 0-5 Bft,High: 30+ °C,Flat,Coniferous forest,Medium: 20-60
+119,Medium: 1-5 Sq. Km,Low: < 1000 ,Low: 0-5 Bft,High: 30+ °C,Slopping,Scrubland,Medium: 20-60
+120,Medium: 1-5 Sq. Km,Low: < 1000 ,Low: 0-5 Bft,High: 30+ °C,Slopping,Coniferous forest,High: >60
+121,Medium: 1-5 Sq. Km,Low: < 1000 ,Medium: 5-8 Bft,Low: < 20 °C,Flat,Scrubland,Medium: 20-60
+122,Medium: 1-5 Sq. Km,Low: < 1000 ,Medium: 5-8 Bft,Low: < 20 °C,Flat,Coniferous forest,Medium: 20-60
+123,Medium: 1-5 Sq. Km,Low: < 1000 ,Medium: 5-8 Bft,Low: < 20 °C,Slopping,Scrubland,Medium: 20-60
+124,Medium: 1-5 Sq. Km,Low: < 1000 ,Medium: 5-8 Bft,Low: < 20 °C,Slopping,Coniferous forest,High: >60
+125,Medium: 1-5 Sq. Km,Low: < 1000 ,Medium: 5-8 Bft,Medium: 20 – 30 °C,Flat,Scrubland,Medium: 20-60
+126,Medium: 1-5 Sq. Km,Low: < 1000 ,Medium: 5-8 Bft,Medium: 20 – 30 °C,Flat,Coniferous forest,Medium: 20-60
+127,Medium: 1-5 Sq. Km,Low: < 1000 ,Medium: 5-8 Bft,Medium: 20 – 30 °C,Slopping,Scrubland,Medium: 20-60
+128,Medium: 1-5 Sq. Km,Low: < 1000 ,Medium: 5-8 Bft,Medium: 20 – 30 °C,Slopping,Coniferous forest,High: >60
+129,Medium: 1-5 Sq. Km,Low: < 1000 ,Medium: 5-8 Bft,High: 30+ °C,Flat,Scrubland,Medium: 20-60
+130,Medium: 1-5 Sq. Km,Low: < 1000 ,Medium: 5-8 Bft,High: 30+ °C,Flat,Coniferous forest,Medium: 20-60
+131,Medium: 1-5 Sq. Km,Low: < 1000 ,Medium: 5-8 Bft,High: 30+ °C,Slopping,Scrubland,Medium: 20-60
+132,Medium: 1-5 Sq. Km,Low: < 1000 ,Medium: 5-8 Bft,High: 30+ °C,Slopping,Coniferous forest,High: >60
+133,Medium: 1-5 Sq. Km,Low: < 1000 ,High: > 8 Bft,Low: < 20 °C,Flat,Scrubland,Medium: 20-60
+134,Medium: 1-5 Sq. Km,Low: < 1000 ,High: > 8 Bft,Low: < 20 °C,Flat,Coniferous forest,Medium: 20-60
+135,Medium: 1-5 Sq. Km,Low: < 1000 ,High: > 8 Bft,Low: < 20 °C,Slopping,Scrubland,Medium: 20-60
+136,Medium: 1-5 Sq. Km,Low: < 1000 ,High: > 8 Bft,Low: < 20 °C,Slopping,Coniferous forest,High: >60
+137,Medium: 1-5 Sq. Km,Low: < 1000 ,High: > 8 Bft,Medium: 20 – 30 °C,Flat,Scrubland,Medium: 20-60
+138,Medium: 1-5 Sq. Km,Low: < 1000 ,High: > 8 Bft,Medium: 20 – 30 °C,Flat,Coniferous forest,Medium: 20-60
+139,Medium: 1-5 Sq. Km,Low: < 1000 ,High: > 8 Bft,Medium: 20 – 30 °C,Slopping,Scrubland,Medium: 20-60
+140,Medium: 1-5 Sq. Km,Low: < 1000 ,High: > 8 Bft,Medium: 20 – 30 °C,Slopping,Coniferous forest,High: >60
+141,Medium: 1-5 Sq. Km,Low: < 1000 ,High: > 8 Bft,High: 30+ °C,Flat,Scrubland,Medium: 20-60
+142,Medium: 1-5 Sq. Km,Low: < 1000 ,High: > 8 Bft,High: 30+ °C,Flat,Coniferous forest,Medium: 20-60
+143,Medium: 1-5 Sq. Km,Low: < 1000 ,High: > 8 Bft,High: 30+ °C,Slopping,Scrubland,Medium: 20-60
+144,Medium: 1-5 Sq. Km,Low: < 1000 ,High: > 8 Bft,High: 30+ °C,Slopping,Coniferous forest,High: >60
+145,Medium: 1-5 Sq. Km,Medium: 1000-5000,Low: 0-5 Bft,Low: < 20 °C,Flat,Scrubland,Medium: 20-60
+146,Medium: 1-5 Sq. Km,Medium: 1000-5000,Low: 0-5 Bft,Low: < 20 °C,Flat,Coniferous forest,Medium: 20-60
+147,Medium: 1-5 Sq. Km,Medium: 1000-5000,Low: 0-5 Bft,Low: < 20 °C,Slopping,Scrubland,Medium: 20-60
+148,Medium: 1-5 Sq. Km,Medium: 1000-5000,Low: 0-5 Bft,Low: < 20 °C,Slopping,Coniferous forest,High: >60
+149,Medium: 1-5 Sq. Km,Medium: 1000-5000,Low: 0-5 Bft,Medium: 20 – 30 °C,Flat,Scrubland,Medium: 20-60
+150,Medium: 1-5 Sq. Km,Medium: 1000-5000,Low: 0-5 Bft,Medium: 20 – 30 °C,Flat,Coniferous forest,Medium: 20-60
+151,Medium: 1-5 Sq. Km,Medium: 1000-5000,Low: 0-5 Bft,Medium: 20 – 30 °C,Slopping,Scrubland,Medium: 20-60
+152,Medium: 1-5 Sq. Km,Medium: 1000-5000,Low: 0-5 Bft,Medium: 20 – 30 °C,Slopping,Coniferous forest,High: >60
+153,Medium: 1-5 Sq. Km,Medium: 1000-5000,Low: 0-5 Bft,High: 30+ °C,Flat,Scrubland,Medium: 20-60
+154,Medium: 1-5 Sq. Km,Medium: 1000-5000,Low: 0-5 Bft,High: 30+ °C,Flat,Coniferous forest,Medium: 20-60
+155,Medium: 1-5 Sq. Km,Medium: 1000-5000,Low: 0-5 Bft,High: 30+ °C,Slopping,Scrubland,Medium: 20-60
+156,Medium: 1-5 Sq. Km,Medium: 1000-5000,Low: 0-5 Bft,High: 30+ °C,Slopping,Coniferous forest,High: >60
+157,Medium: 1-5 Sq. Km,Medium: 1000-5000,Medium: 5-8 Bft,Low: < 20 °C,Flat,Scrubland,Medium: 20-60
+158,Medium: 1-5 Sq. Km,Medium: 1000-5000,Medium: 5-8 Bft,Low: < 20 °C,Flat,Coniferous forest,Medium: 20-60
+159,Medium: 1-5 Sq. Km,Medium: 1000-5000,Medium: 5-8 Bft,Low: < 20 °C,Slopping,Scrubland,Medium: 20-60
+160,Medium: 1-5 Sq. Km,Medium: 1000-5000,Medium: 5-8 Bft,Low: < 20 °C,Slopping,Coniferous forest,Medium: 20-60
+161,Medium: 1-5 Sq. Km,Medium: 1000-5000,Medium: 5-8 Bft,Medium: 20 – 30 °C,Flat,Scrubland,Medium: 20-60
+162,Medium: 1-5 Sq. Km,Medium: 1000-5000,Medium: 5-8 Bft,Medium: 20 – 30 °C,Flat,Coniferous forest,High: >60
+163,Medium: 1-5 Sq. Km,Medium: 1000-5000,Medium: 5-8 Bft,Medium: 20 – 30 °C,Slopping,Scrubland,Medium: 20-60
+164,Medium: 1-5 Sq. Km,Medium: 1000-5000,Medium: 5-8 Bft,Medium: 20 – 30 °C,Slopping,Coniferous forest,High: >60
+165,Medium: 1-5 Sq. Km,Medium: 1000-5000,Medium: 5-8 Bft,High: 30+ °C,Flat,Scrubland,Medium: 20-60
+166,Medium: 1-5 Sq. Km,Medium: 1000-5000,Medium: 5-8 Bft,High: 30+ °C,Flat,Coniferous forest,High: >60
+167,Medium: 1-5 Sq. Km,Medium: 1000-5000,Medium: 5-8 Bft,High: 30+ °C,Slopping,Scrubland,High: >60
+168,Medium: 1-5 Sq. Km,Medium: 1000-5000,Medium: 5-8 Bft,High: 30+ °C,Slopping,Coniferous forest,High: >60
+169,Medium: 1-5 Sq. Km,Medium: 1000-5000,High: > 8 Bft,Low: < 20 °C,Flat,Scrubland,Medium: 20-60
+170,Medium: 1-5 Sq. Km,Medium: 1000-5000,High: > 8 Bft,Low: < 20 °C,Flat,Coniferous forest,Medium: 20-60
+171,Medium: 1-5 Sq. Km,Medium: 1000-5000,High: > 8 Bft,Low: < 20 °C,Slopping,Scrubland,Medium: 20-60
+172,Medium: 1-5 Sq. Km,Medium: 1000-5000,High: > 8 Bft,Low: < 20 °C,Slopping,Coniferous forest,High: >60
+173,Medium: 1-5 Sq. Km,Medium: 1000-5000,High: > 8 Bft,Medium: 20 – 30 °C,Flat,Scrubland,Medium: 20-60
+174,Medium: 1-5 Sq. Km,Medium: 1000-5000,High: > 8 Bft,Medium: 20 – 30 °C,Flat,Coniferous forest,Medium: 20-60
+175,Medium: 1-5 Sq. Km,Medium: 1000-5000,High: > 8 Bft,Medium: 20 – 30 °C,Slopping,Scrubland,High: >60
+176,Medium: 1-5 Sq. Km,Medium: 1000-5000,High: > 8 Bft,Medium: 20 – 30 °C,Slopping,Coniferous forest,High: >60
+177,Medium: 1-5 Sq. Km,Medium: 1000-5000,High: > 8 Bft,High: 30+ °C,Flat,Scrubland,Medium: 20-60
+178,Medium: 1-5 Sq. Km,Medium: 1000-5000,High: > 8 Bft,High: 30+ °C,Flat,Coniferous forest,High: >60
+179,Medium: 1-5 Sq. Km,Medium: 1000-5000,High: > 8 Bft,High: 30+ °C,Slopping,Scrubland,High: >60
+180,Medium: 1-5 Sq. Km,Medium: 1000-5000,High: > 8 Bft,High: 30+ °C,Slopping,Coniferous forest,High: >60
+181,Medium: 1-5 Sq. Km,High: >5000,Low: 0-5 Bft,Low: < 20 °C,Flat,Scrubland,Medium: 20-60
+182,Medium: 1-5 Sq. Km,High: >5000,Low: 0-5 Bft,Low: < 20 °C,Flat,Coniferous forest,Medium: 20-60
+183,Medium: 1-5 Sq. Km,High: >5000,Low: 0-5 Bft,Low: < 20 °C,Slopping,Scrubland,Medium: 20-60
+184,Medium: 1-5 Sq. Km,High: >5000,Low: 0-5 Bft,Low: < 20 °C,Slopping,Coniferous forest,Medium: 20-60
+185,Medium: 1-5 Sq. Km,High: >5000,Low: 0-5 Bft,Medium: 20 – 30 °C,Flat,Scrubland,Medium: 20-60
+186,Medium: 1-5 Sq. Km,High: >5000,Low: 0-5 Bft,Medium: 20 – 30 °C,Flat,Coniferous forest,Medium: 20-60
+187,Medium: 1-5 Sq. Km,High: >5000,Low: 0-5 Bft,Medium: 20 – 30 °C,Slopping,Scrubland,Medium: 20-60
+188,Medium: 1-5 Sq. Km,High: >5000,Low: 0-5 Bft,Medium: 20 – 30 °C,Slopping,Coniferous forest,Medium: 20-60
+189,Medium: 1-5 Sq. Km,High: >5000,Low: 0-5 Bft,High: 30+ °C,Flat,Scrubland,Medium: 20-60
+190,Medium: 1-5 Sq. Km,High: >5000,Low: 0-5 Bft,High: 30+ °C,Flat,Coniferous forest,High: >60
+191,Medium: 1-5 Sq. Km,High: >5000,Low: 0-5 Bft,High: 30+ °C,Slopping,Scrubland,High: >60
+192,Medium: 1-5 Sq. Km,High: >5000,Low: 0-5 Bft,High: 30+ °C,Slopping,Coniferous forest,High: >60
+193,Medium: 1-5 Sq. Km,High: >5000,Medium: 5-8 Bft,Low: < 20 °C,Flat,Scrubland,Medium: 20-60
+194,Medium: 1-5 Sq. Km,High: >5000,Medium: 5-8 Bft,Low: < 20 °C,Flat,Coniferous forest,Medium: 20-60
+195,Medium: 1-5 Sq. Km,High: >5000,Medium: 5-8 Bft,Low: < 20 °C,Slopping,Scrubland,Medium: 20-60
+196,Medium: 1-5 Sq. Km,High: >5000,Medium: 5-8 Bft,Low: < 20 °C,Slopping,Coniferous forest,High: >60
+197,Medium: 1-5 Sq. Km,High: >5000,Medium: 5-8 Bft,Medium: 20 – 30 °C,Flat,Scrubland,Medium: 20-60
+198,Medium: 1-5 Sq. Km,High: >5000,Medium: 5-8 Bft,Medium: 20 – 30 °C,Flat,Coniferous forest,High: >60
+199,Medium: 1-5 Sq. Km,High: >5000,Medium: 5-8 Bft,Medium: 20 – 30 °C,Slopping,Scrubland,High: >60
+200,Medium: 1-5 Sq. Km,High: >5000,Medium: 5-8 Bft,Medium: 20 – 30 °C,Slopping,Coniferous forest,High: >60
+201,Medium: 1-5 Sq. Km,High: >5000,Medium: 5-8 Bft,High: 30+ °C,Flat,Scrubland,Medium: 20-60
+202,Medium: 1-5 Sq. Km,High: >5000,Medium: 5-8 Bft,High: 30+ °C,Flat,Coniferous forest,High: >60
+203,Medium: 1-5 Sq. Km,High: >5000,Medium: 5-8 Bft,High: 30+ °C,Slopping,Scrubland,High: >60
+204,Medium: 1-5 Sq. Km,High: >5000,Medium: 5-8 Bft,High: 30+ °C,Slopping,Coniferous forest,High: >60
+205,Medium: 1-5 Sq. Km,High: >5000,High: > 8 Bft,Low: < 20 °C,Flat,Scrubland,Medium: 20-60
+206,Medium: 1-5 Sq. Km,High: >5000,High: > 8 Bft,Low: < 20 °C,Flat,Coniferous forest,High: >60
+207,Medium: 1-5 Sq. Km,High: >5000,High: > 8 Bft,Low: < 20 °C,Slopping,Scrubland,Medium: 20-60
+208,Medium: 1-5 Sq. Km,High: >5000,High: > 8 Bft,Low: < 20 °C,Slopping,Coniferous forest,High: >60
+209,Medium: 1-5 Sq. Km,High: >5000,High: > 8 Bft,Medium: 20 – 30 °C,Flat,Scrubland,Medium: 20-60
+210,Medium: 1-5 Sq. Km,High: >5000,High: > 8 Bft,Medium: 20 – 30 °C,Flat,Coniferous forest,High: >60
+211,Medium: 1-5 Sq. Km,High: >5000,High: > 8 Bft,Medium: 20 – 30 °C,Slopping,Scrubland,High: >60
+212,Medium: 1-5 Sq. Km,High: >5000,High: > 8 Bft,Medium: 20 – 30 °C,Slopping,Coniferous forest,High: >60
+213,Medium: 1-5 Sq. Km,High: >5000,High: > 8 Bft,High: 30+ °C,Flat,Scrubland,High: >60
+214,Medium: 1-5 Sq. Km,High: >5000,High: > 8 Bft,High: 30+ °C,Flat,Coniferous forest,High: >60
+215,Medium: 1-5 Sq. Km,High: >5000,High: > 8 Bft,High: 30+ °C,Slopping,Scrubland,High: >60
+216,Medium: 1-5 Sq. Km,High: >5000,High: > 8 Bft,High: 30+ °C,Slopping,Coniferous forest,High: >60
+217,High: > 5 Sq. Km,Low: < 1000 ,Low: 0-5 Bft,Low: < 20 °C,Flat,Scrubland,High: >60
+218,High: > 5 Sq. Km,Low: < 1000 ,Low: 0-5 Bft,Low: < 20 °C,Flat,Coniferous forest,High: >60
+219,High: > 5 Sq. Km,Low: < 1000 ,Low: 0-5 Bft,Low: < 20 °C,Slopping,Scrubland,High: >60
+220,High: > 5 Sq. Km,Low: < 1000 ,Low: 0-5 Bft,Low: < 20 °C,Slopping,Coniferous forest,High: >60
+221,High: > 5 Sq. Km,Low: < 1000 ,Low: 0-5 Bft,Medium: 20 – 30 °C,Flat,Scrubland,High: >60
+222,High: > 5 Sq. Km,Low: < 1000 ,Low: 0-5 Bft,Medium: 20 – 30 °C,Flat,Coniferous forest,High: >60
+223,High: > 5 Sq. Km,Low: < 1000 ,Low: 0-5 Bft,Medium: 20 – 30 °C,Slopping,Scrubland,High: >60
+224,High: > 5 Sq. Km,Low: < 1000 ,Low: 0-5 Bft,Medium: 20 – 30 °C,Slopping,Coniferous forest,High: >60
+225,High: > 5 Sq. Km,Low: < 1000 ,Low: 0-5 Bft,High: 30+ °C,Flat,Scrubland,High: >60
+226,High: > 5 Sq. Km,Low: < 1000 ,Low: 0-5 Bft,High: 30+ °C,Flat,Coniferous forest,High: >60
+227,High: > 5 Sq. Km,Low: < 1000 ,Low: 0-5 Bft,High: 30+ °C,Slopping,Scrubland,High: >60
+228,High: > 5 Sq. Km,Low: < 1000 ,Low: 0-5 Bft,High: 30+ °C,Slopping,Coniferous forest,High: >60
+229,High: > 5 Sq. Km,Low: < 1000 ,Medium: 5-8 Bft,Low: < 20 °C,Flat,Scrubland,High: >60
+230,High: > 5 Sq. Km,Low: < 1000 ,Medium: 5-8 Bft,Low: < 20 °C,Flat,Coniferous forest,High: >60
+231,High: > 5 Sq. Km,Low: < 1000 ,Medium: 5-8 Bft,Low: < 20 °C,Slopping,Scrubland,High: >60
+232,High: > 5 Sq. Km,Low: < 1000 ,Medium: 5-8 Bft,Low: < 20 °C,Slopping,Coniferous forest,High: >60
+233,High: > 5 Sq. Km,Low: < 1000 ,Medium: 5-8 Bft,Medium: 20 – 30 °C,Flat,Scrubland,High: >60
+234,High: > 5 Sq. Km,Low: < 1000 ,Medium: 5-8 Bft,Medium: 20 – 30 °C,Flat,Coniferous forest,High: >60
+235,High: > 5 Sq. Km,Low: < 1000 ,Medium: 5-8 Bft,Medium: 20 – 30 °C,Slopping,Scrubland,High: >60
+236,High: > 5 Sq. Km,Low: < 1000 ,Medium: 5-8 Bft,Medium: 20 – 30 °C,Slopping,Coniferous forest,High: >60
+237,High: > 5 Sq. Km,Low: < 1000 ,Medium: 5-8 Bft,High: 30+ °C,Flat,Scrubland,High: >60
+238,High: > 5 Sq. Km,Low: < 1000 ,Medium: 5-8 Bft,High: 30+ °C,Flat,Coniferous forest,High: >60
+239,High: > 5 Sq. Km,Low: < 1000 ,Medium: 5-8 Bft,High: 30+ °C,Slopping,Scrubland,High: >60
+240,High: > 5 Sq. Km,Low: < 1000 ,Medium: 5-8 Bft,High: 30+ °C,Slopping,Coniferous forest,High: >60
+241,High: > 5 Sq. Km,Low: < 1000 ,High: > 8 Bft,Low: < 20 °C,Flat,Scrubland,High: >60
+242,High: > 5 Sq. Km,Low: < 1000 ,High: > 8 Bft,Low: < 20 °C,Flat,Coniferous forest,High: >60
+243,High: > 5 Sq. Km,Low: < 1000 ,High: > 8 Bft,Low: < 20 °C,Slopping,Scrubland,High: >60
+244,High: > 5 Sq. Km,Low: < 1000 ,High: > 8 Bft,Low: < 20 °C,Slopping,Coniferous forest,High: >60
+245,High: > 5 Sq. Km,Low: < 1000 ,High: > 8 Bft,Medium: 20 – 30 °C,Flat,Scrubland,High: >60
+246,High: > 5 Sq. Km,Low: < 1000 ,High: > 8 Bft,Medium: 20 – 30 °C,Flat,Coniferous forest,High: >60
+247,High: > 5 Sq. Km,Low: < 1000 ,High: > 8 Bft,Medium: 20 – 30 °C,Slopping,Scrubland,High: >60
+248,High: > 5 Sq. Km,Low: < 1000 ,High: > 8 Bft,Medium: 20 – 30 °C,Slopping,Coniferous forest,High: >60
+249,High: > 5 Sq. Km,Low: < 1000 ,High: > 8 Bft,High: 30+ °C,Flat,Scrubland,High: >60
+250,High: > 5 Sq. Km,Low: < 1000 ,High: > 8 Bft,High: 30+ °C,Flat,Coniferous forest,High: >60
+251,High: > 5 Sq. Km,Low: < 1000 ,High: > 8 Bft,High: 30+ °C,Slopping,Scrubland,High: >60
+252,High: > 5 Sq. Km,Low: < 1000 ,High: > 8 Bft,High: 30+ °C,Slopping,Coniferous forest,High: >60
+253,High: > 5 Sq. Km,Medium: 1000-5000,Low: 0-5 Bft,Low: < 20 °C,Flat,Scrubland,High: >60
+254,High: > 5 Sq. Km,Medium: 1000-5000,Low: 0-5 Bft,Low: < 20 °C,Flat,Coniferous forest,High: >60
+255,High: > 5 Sq. Km,Medium: 1000-5000,Low: 0-5 Bft,Low: < 20 °C,Slopping,Scrubland,High: >60
+256,High: > 5 Sq. Km,Medium: 1000-5000,Low: 0-5 Bft,Low: < 20 °C,Slopping,Coniferous forest,High: >60
+257,High: > 5 Sq. Km,Medium: 1000-5000,Low: 0-5 Bft,Medium: 20 – 30 °C,Flat,Scrubland,High: >60
+258,High: > 5 Sq. Km,Medium: 1000-5000,Low: 0-5 Bft,Medium: 20 – 30 °C,Flat,Coniferous forest,High: >60
+259,High: > 5 Sq. Km,Medium: 1000-5000,Low: 0-5 Bft,Medium: 20 – 30 °C,Slopping,Scrubland,High: >60
+260,High: > 5 Sq. Km,Medium: 1000-5000,Low: 0-5 Bft,Medium: 20 – 30 °C,Slopping,Coniferous forest,High: >60
+261,High: > 5 Sq. Km,Medium: 1000-5000,Low: 0-5 Bft,High: 30+ °C,Flat,Scrubland,High: >60
+262,High: > 5 Sq. Km,Medium: 1000-5000,Low: 0-5 Bft,High: 30+ °C,Flat,Coniferous forest,High: >60
+263,High: > 5 Sq. Km,Medium: 1000-5000,Low: 0-5 Bft,High: 30+ °C,Slopping,Scrubland,High: >60
+264,High: > 5 Sq. Km,Medium: 1000-5000,Low: 0-5 Bft,High: 30+ °C,Slopping,Coniferous forest,High: >60
+265,High: > 5 Sq. Km,Medium: 1000-5000,Medium: 5-8 Bft,Low: < 20 °C,Flat,Scrubland,High: >60
+266,High: > 5 Sq. Km,Medium: 1000-5000,Medium: 5-8 Bft,Low: < 20 °C,Flat,Coniferous forest,High: >60
+267,High: > 5 Sq. Km,Medium: 1000-5000,Medium: 5-8 Bft,Low: < 20 °C,Slopping,Scrubland,High: >60
+268,High: > 5 Sq. Km,Medium: 1000-5000,Medium: 5-8 Bft,Low: < 20 °C,Slopping,Coniferous forest,High: >60
+269,High: > 5 Sq. Km,Medium: 1000-5000,Medium: 5-8 Bft,Medium: 20 – 30 °C,Flat,Scrubland,High: >60
+270,High: > 5 Sq. Km,Medium: 1000-5000,Medium: 5-8 Bft,Medium: 20 – 30 °C,Flat,Coniferous forest,High: >60
+271,High: > 5 Sq. Km,Medium: 1000-5000,Medium: 5-8 Bft,Medium: 20 – 30 °C,Slopping,Scrubland,High: >60
+272,High: > 5 Sq. Km,Medium: 1000-5000,Medium: 5-8 Bft,Medium: 20 – 30 °C,Slopping,Coniferous forest,High: >60
+273,High: > 5 Sq. Km,Medium: 1000-5000,Medium: 5-8 Bft,High: 30+ °C,Flat,Scrubland,High: >60
+274,High: > 5 Sq. Km,Medium: 1000-5000,Medium: 5-8 Bft,High: 30+ °C,Flat,Coniferous forest,High: >60
+275,High: > 5 Sq. Km,Medium: 1000-5000,Medium: 5-8 Bft,High: 30+ °C,Slopping,Scrubland,High: >60
+276,High: > 5 Sq. Km,Medium: 1000-5000,Medium: 5-8 Bft,High: 30+ °C,Slopping,Coniferous forest,High: >60
+277,High: > 5 Sq. Km,Medium: 1000-5000,High: > 8 Bft,Low: < 20 °C,Flat,Scrubland,High: >60
+278,High: > 5 Sq. Km,Medium: 1000-5000,High: > 8 Bft,Low: < 20 °C,Flat,Coniferous forest,High: >60
+279,High: > 5 Sq. Km,Medium: 1000-5000,High: > 8 Bft,Low: < 20 °C,Slopping,Scrubland,High: >60
+280,High: > 5 Sq. Km,Medium: 1000-5000,High: > 8 Bft,Low: < 20 °C,Slopping,Coniferous forest,High: >60
+281,High: > 5 Sq. Km,Medium: 1000-5000,High: > 8 Bft,Medium: 20 – 30 °C,Flat,Scrubland,High: >60
+282,High: > 5 Sq. Km,Medium: 1000-5000,High: > 8 Bft,Medium: 20 – 30 °C,Flat,Coniferous forest,High: >60
+283,High: > 5 Sq. Km,Medium: 1000-5000,High: > 8 Bft,Medium: 20 – 30 °C,Slopping,Scrubland,High: >60
+284,High: > 5 Sq. Km,Medium: 1000-5000,High: > 8 Bft,Medium: 20 – 30 °C,Slopping,Coniferous forest,High: >60
+285,High: > 5 Sq. Km,Medium: 1000-5000,High: > 8 Bft,High: 30+ °C,Flat,Scrubland,High: >60
+286,High: > 5 Sq. Km,Medium: 1000-5000,High: > 8 Bft,High: 30+ °C,Flat,Coniferous forest,High: >60
+287,High: > 5 Sq. Km,Medium: 1000-5000,High: > 8 Bft,High: 30+ °C,Slopping,Scrubland,High: >60
+288,High: > 5 Sq. Km,Medium: 1000-5000,High: > 8 Bft,High: 30+ °C,Slopping,Coniferous forest,High: >60
+289,High: > 5 Sq. Km,High: >5000,Low: 0-5 Bft,Low: < 20 °C,Flat,Scrubland,High: >60
+290,High: > 5 Sq. Km,High: >5000,Low: 0-5 Bft,Low: < 20 °C,Flat,Coniferous forest,High: >60
+291,High: > 5 Sq. Km,High: >5000,Low: 0-5 Bft,Low: < 20 °C,Slopping,Scrubland,High: >60
+292,High: > 5 Sq. Km,High: >5000,Low: 0-5 Bft,Low: < 20 °C,Slopping,Coniferous forest,High: >60
+293,High: > 5 Sq. Km,High: >5000,Low: 0-5 Bft,Medium: 20 – 30 °C,Flat,Scrubland,High: >60
+294,High: > 5 Sq. Km,High: >5000,Low: 0-5 Bft,Medium: 20 – 30 °C,Flat,Coniferous forest,High: >60
+295,High: > 5 Sq. Km,High: >5000,Low: 0-5 Bft,Medium: 20 – 30 °C,Slopping,Scrubland,High: >60
+296,High: > 5 Sq. Km,High: >5000,Low: 0-5 Bft,Medium: 20 – 30 °C,Slopping,Coniferous forest,High: >60
+297,High: > 5 Sq. Km,High: >5000,Low: 0-5 Bft,High: 30+ °C,Flat,Scrubland,High: >60
+298,High: > 5 Sq. Km,High: >5000,Low: 0-5 Bft,High: 30+ °C,Flat,Coniferous forest,High: >60
+299,High: > 5 Sq. Km,High: >5000,Low: 0-5 Bft,High: 30+ °C,Slopping,Scrubland,High: >60
+300,High: > 5 Sq. Km,High: >5000,Low: 0-5 Bft,High: 30+ °C,Slopping,Coniferous forest,High: >60
+301,High: > 5 Sq. Km,High: >5000,Medium: 5-8 Bft,Low: < 20 °C,Flat,Scrubland,High: >60
+302,High: > 5 Sq. Km,High: >5000,Medium: 5-8 Bft,Low: < 20 °C,Flat,Coniferous forest,High: >60
+303,High: > 5 Sq. Km,High: >5000,Medium: 5-8 Bft,Low: < 20 °C,Slopping,Scrubland,High: >60
+304,High: > 5 Sq. Km,High: >5000,Medium: 5-8 Bft,Low: < 20 °C,Slopping,Coniferous forest,High: >60
+305,High: > 5 Sq. Km,High: >5000,Medium: 5-8 Bft,Medium: 20 – 30 °C,Flat,Scrubland,High: >60
+306,High: > 5 Sq. Km,High: >5000,Medium: 5-8 Bft,Medium: 20 – 30 °C,Flat,Coniferous forest,High: >60
+307,High: > 5 Sq. Km,High: >5000,Medium: 5-8 Bft,Medium: 20 – 30 °C,Slopping,Scrubland,High: >60
+308,High: > 5 Sq. Km,High: >5000,Medium: 5-8 Bft,Medium: 20 – 30 °C,Slopping,Coniferous forest,High: >60
+309,High: > 5 Sq. Km,High: >5000,Medium: 5-8 Bft,High: 30+ °C,Flat,Scrubland,High: >60
+310,High: > 5 Sq. Km,High: >5000,Medium: 5-8 Bft,High: 30+ °C,Flat,Coniferous forest,High: >60
+311,High: > 5 Sq. Km,High: >5000,Medium: 5-8 Bft,High: 30+ °C,Slopping,Scrubland,High: >60
+312,High: > 5 Sq. Km,High: >5000,Medium: 5-8 Bft,High: 30+ °C,Slopping,Coniferous forest,High: >60
+313,High: > 5 Sq. Km,High: >5000,High: > 8 Bft,Low: < 20 °C,Flat,Scrubland,High: >60
+314,High: > 5 Sq. Km,High: >5000,High: > 8 Bft,Low: < 20 °C,Flat,Coniferous forest,High: >60
+315,High: > 5 Sq. Km,High: >5000,High: > 8 Bft,Low: < 20 °C,Slopping,Scrubland,High: >60
+316,High: > 5 Sq. Km,High: >5000,High: > 8 Bft,Low: < 20 °C,Slopping,Coniferous forest,High: >60
+317,High: > 5 Sq. Km,High: >5000,High: > 8 Bft,Medium: 20 – 30 °C,Flat,Scrubland,High: >60
+318,High: > 5 Sq. Km,High: >5000,High: > 8 Bft,Medium: 20 – 30 °C,Flat,Coniferous forest,High: >60
+319,High: > 5 Sq. Km,High: >5000,High: > 8 Bft,Medium: 20 – 30 °C,Slopping,Scrubland,High: >60
+320,High: > 5 Sq. Km,High: >5000,High: > 8 Bft,Medium: 20 – 30 °C,Slopping,Coniferous forest,High: >60
+321,High: > 5 Sq. Km,High: >5000,High: > 8 Bft,High: 30+ °C,Flat,Scrubland,High: >60
+322,High: > 5 Sq. Km,High: >5000,High: > 8 Bft,High: 30+ °C,Flat,Coniferous forest,High: >60
+323,High: > 5 Sq. Km,High: >5000,High: > 8 Bft,High: 30+ °C,Slopping,Scrubland,High: >60
+324,High: > 5 Sq. Km,High: >5000,High: > 8 Bft,High: 30+ °C,Slopping,Coniferous forest,High: >60
